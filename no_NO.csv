@@ -366,6 +366,7 @@ Error,Feil
 "Number of Records Affected","Antall poster som påvirkes"
 "We can't find the role for the user you wanted.","Vi finner ikke rolle for brukeren du ønsket."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noe gikk galt ved kompileringen av en liste over tillatte ressurser. Du kan finne ut mer i unntaksloggen."
+"The role wasn't found for the user. Verify the role and try again.","Brukerens rolle ble ikke funnet. Kontroller rollen og prøv igjen."
 "You created the order.","Du opprettet ordren."
 "Order saving error: %1","Ordrelagringsfeil: %1"
 "Please choose a payment method.","Vennligst velg en betalingsmåte."
@@ -433,7 +434,10 @@ Debug,Feilsøk
 "Maximum Order Total","Maks ordretotal"
 "Sort Order",Sorteringsrekkefølge
 "Cannot place order.","Kan ikke plassere ordre."
+"'Gateway error: ' .","'Gateway-feil: '."
 "Unable to place order. Please try again later.","Kan ikke ta imot bestilling. Prøv igjen senere."
+"A server error stopped your order from being placed. Please try to place your order again.","En serverfeil stoppet bestillingen fra blir gjennomført. Prøv å bestille igjen."
+"The transaction details are unavailable. Please try again later.","Transaksjonsdetaljer er ikke tilgjengelige. Prøv igjen senere."
 Environment,Miljø
 "Transaction has been declined. Please try again later.","Transaksjonen er avslått. Prøv igjen senere."
 options,innstillinger
@@ -2221,7 +2225,6 @@ of,av
 "The quote item isn't found. Verify the item and try again.","Etterspurt vare ble ikke funnet. Verifiser varen og prøv igjen."
 "The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Bestillingen ble ikke plassert. Først, si deg enig i vilkårene, forsøk deretter å gjennomføre ordren igjen."
 "The product wasn't found. Verify the product and try again.","Produktet ble ikke funnet. Verifiser produktet og prøv igjen."
-"A server error stopped your order from being placed. Please try to place your order again.","En serverfeil stoppet bestillingen fra blir gjennomført. Prøv å bestille igjen."
 "The shipping address is missing. Set the address and try again.","Leveringsadressen mangler. Legg inn adressen og forsøk igjen."
 "The shipping information was unable to be saved. Verify the input data and try again.","Leveringsinformasjon kunne ikke lagres. Kontroller inntastet informasjon og prøv igjen."
 "The shipping method can't be set for an empty cart. Add an item to cart and try again.","Leveringsmetoden kan ikke velges for en tom handlekurv. Legg til en vare og forsøk igjen."
