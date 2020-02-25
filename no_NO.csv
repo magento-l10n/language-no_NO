@@ -2337,6 +2337,10 @@ Block,Blokk
 "CMS Pages","CMS sider"
 "CMS Blocks","CMS blokker"
 "Delete Customer","Slett kunde"
+"Delete Company","Slett et firma"
+Companies,Selskaper
+"Add New Company","Nytt selskap"
+"Company Name:",Firmanavn:
 "Company Email:",Firma-e-post:
 "VAT/TAX ID:","MVA / SKATT ID:"
 "Street Address:",Gateadresse:
