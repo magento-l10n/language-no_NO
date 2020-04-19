@@ -1400,8 +1400,11 @@ Categories,Kategorier
 "A total of %1 record(s) were updated.","Totalt %1 post(er) ble oppdatert."
 "Something went wrong while updating the product(s) attributes.","Noe gikk galt ved oppdatering av produkt(er) attributtene."
 "Unable to add attribute","Kan ikke legge til attributtet"
+"Please, specify attributes","Vennligst velg attributter"
 "Manage Product Attributes","Administrere produkt-attributter"
+"We can't delete the attribute.","Vi kan ikke slette attributtet."
 "You deleted the product attribute.","Du slettet produktattributtet."
+"We can't find an attribute to delete.","Vi kan ikke finne et attributt å slette."
 "This attribute no longer exists.","Dette attributtet finnes ikke lenger."
 "This attribute cannot be edited.","Attributtet kan ikke redigeres."
 "Edit Product Attribute","Redigere produkt attributt"
@@ -1426,6 +1429,7 @@ Categories,Kategorier
 "The image cannot be removed as it has been assigned to the other image role","Bildet kan ikke fjernes som den er tilordnet andre bildet rollen"
 "New Attribute Set","Nytt attributtsett"
 "The attribute set has been removed.","Attributtsettet er fjernet."
+"We can't delete this set right now.","Vi kan ikke slette settet akkurat nå."
 "New Set","Nytt sett"
 "Manage Product Sets","Administrere produktsett"
 "Manage Attribute Sets","Administrer attributtsett"
@@ -1446,7 +1450,12 @@ List,Liste
 "Bad controller interface for showing product","Dårlig kontrolleren grensesnitt for å vise produktet"
 "Product is not loaded","Produktet er ikke lastet"
 "Make sure the To Date is later than or the same as the From Date.","Kontroller at Til Dato er senere enn eller samme som Fra Dato."
+"Sorry, but we can't find the new parent category you selected.","Beklager, men vi finner ikke den nye overordnede kategorien du har valgt."
+"Sorry, but we can't find the new category you selected.","Beklager, men vi finner ikke den nye kategorien du har valgt."
+"We can't move the category because the parent category name matches the child category name.","Vi kan ikke flytte kategorien fordi det overordnede kategorinavnet samsvarer med navnet på underkategorien."
 "Something went wrong while getting the image url.","Noe gikk galt under henting av bilde-url."
+"Can't delete root category.","Kan ikke slette rotkategori."
+"The value of attribute ""%1"" must be unique.","Verdien på attributtet ""%1"" må være unikt."
 "Default Product Listing Sort by does not exist in Available Product Listing Sort By.","Standard Produkt Liste Sortering Etter finnes ikke i Tilgjengelig Produkt Liste Sortering Etter."
 "No layout updates","Ingen layout oppdateringer"
 "Products only","Kun produkter"
@@ -1479,6 +1488,7 @@ Top/Right,Øverste/høyre
 Bottom/Left,Nederst/venstre
 Bottom/Right,Nederst/høyre
 Center,Midtstill
+"%1 doesn't extends \Magento\Framework\Model\AbstractModel","%1 er ikke en forlengelse av \Magento\Framework\Model\AbstractModel"
 "Something went wrong while saving the file(s).","Noe gikk galt mens filen/filene skulle lagres."
 "File can not be saved to the destination folder.","Filen kan ikke lagres til angitt mappe."
 "Unknown EAV indexer type ""%1"".","Ukjent EAV indekser type""%1""."
@@ -1490,15 +1500,20 @@ Center,Midtstill
 "Must be category model instance or its id.","Må være kategori modell forekomst eller denne sin id."
 "The attribute model is not defined.","Attributtmodellen er ikke definert."
 Category,Kategori
+"%1 was not found in algorithms","%1 ble ikke funnet i algoritmer"
+"%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","%1 er ikke en forlengelse av \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgoritmInterface"
+"%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","%1 er ikke en forlengelse av \Magento\Catalog\Model\Layer\Filter\AbstractFilter"
 "The filter must be an object. Please set the correct filter.","Filteret må være et objekt. Angi riktig filter."
 "Clear Price","Fjern pris"
 "%1 and above","%1 og over"
+"The filters must be an array.","Filtrene må være en matrise (array)."
 "Product was not registered","Produktet ble ikke registrert"
 "Store was not registered","Butikken ble ikke registrert"
 "Group price must be a number greater than 0.","Gruppepris må være et nummer større enn 0."
 "Media Gallery converter should be an instance of EntryConverterInterface.","Media Galleri Konverterer burde være en instanse av EntryConverterInterface."
 "There is no MediaGalleryEntryConverter for given type","Det finnes ikke en MediaGalleryEntryConverter for den angitte typen"
 "Please enter a number 0 or greater in this field.","Angi et nummer 0 eller større i dette feltet."
+"The value of attribute ""%1"" must be set","Verdien av attributtet ""%1"" må være definert"
 "SKU length should be %1 characters maximum.","SKU lengde burde være %1 tegn maksimum."
 "Please enter a valid number in this field.","Vennligst skriv inn et gyldig tall i dette feltet."
 "We found a duplicate website, tier price, customer group and quantity.","Vi fant en duplisert nettside, prisnivå, kundegruppe og kvantitet."
@@ -1658,8 +1673,8 @@ Role,Rolle
 "Basic Settings","Grunnleggende innstillinger"
 "Advanced Settings","Avanserte innstillinger"
 "Buy %1 for: ","Kjøpt %1 for: "
-"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Kjøp %1 for %2 hver og <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
-"Buy %1 for %2 each","Kjøp %1 for %2 hver"
+"Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Kjøp %1 for %2 pr. stk. og <strong class=""benefit"">spar<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
+"Buy %1 for %2 each","Kjøp %1 for %2 pr. stk."
 "Shop By","Handle etter"
 "Shopping Options",Butikkalternativer
 "Compare Products","Sammenlign produkter"
@@ -1853,8 +1868,13 @@ Overview,Oversikt
 "Category Data",Kategoridata
 "Not shared with other products","Ikke delt med andre produkter"
 "Click here or drag and drop to add images.","Klikk her eller dra og slipp for å legge til bilder."
+"Close panel","Lukk panel"
 "Allow Multiple Boxes for Shipping.","Tillat flere esker i levering."
+Watermark,Vannmerke
+"Watermark Position",Vannmerke-posisjon
 none,ingen
+text,tekst
+"Tier Price",Kvantumspriser
 "Sort Products By","Sorter varer etter"
 "Page not found","Siden finnes ikke"
 from,fra
@@ -1863,7 +1883,18 @@ to,til
 remaining,gjenstår
 "too many","for mange"
 "This value does not follow the specified format (for example, 200X300).","Denne verdien følger ikke angitt format (for eksempel 200 x 300)."
+"Images Upload Configuration","Konfigurasjon for opplasting av bilder"
+Quality,Kvalitet
 Cost,Kostnad
+"The ""%1"" file couldn't be moved.","""%1"" filen kan ikke flyttes."
+"The ProductSku is empty. Set the ProductSku and try again.","ProductSku er tom. Angi ProductSku og prøv på nytt."
+"The custom option couldn't be removed.","Det egendefinerte alternativet kunne ikke fjernes."
+"Product Name or SKU","Produktnavn eller SKU"
+"Start typing to find products","Begynn å skrive for å finne produkter"
+"Product with ID: %s doesn't exist","Produkt med ID: %s finnes ikke"
+"Processor %1 doesn't implement WysiwygConfigDataProcessorInterface. It will be skipped","Prosessor %1 implementerer ikke WysiwygConfigDataProcessorInterface. Den vil bli hoppet over"
+"An item needs to be selected. Select and try again.","Et alternativ må velges. Velg ett og prøv igjen."
+"Use Static URLs for Media Content in WYSIWYG","Bruke statiske nettadresser for medieinnhold i WYSIWYG"
 "Edit Event","Rediger hendelsen"
 "Add Event","Legg til hendelse"
 Events,Hendelser
@@ -2341,6 +2372,7 @@ Block,Blokk
 Companies,Selskaper
 "Add New Company","Nytt selskap"
 "Company Name:",Firmanavn:
+"Company Legal Name:","Firmaets juridiske navn:"
 "Company Email:",Firma-e-post:
 "VAT/TAX ID:","MVA / SKATT ID:"
 "Street Address:",Gateadresse:
@@ -2367,28 +2399,37 @@ Duplicated,Duplisert
 "can not be saved","kan ikke bli lagret"
 "A total of %1 record(s) were deleted.","Totalt %1 post(er) ble slettet."
 "Could not save company","Kunne ikke lagre firmaet"
+"Cannot create the customer.","Kan ikke opprette kunde."
+"The customer was successfully created.","Kunden ble opprettet."
+"You cannot delete yourself.","Du kan ikke slette deg selv."
 "Cannot delete this user.","Kan ikke slette brukeren."
 "The customer was successfully deleted.","Sletting av kunde var vellykket."
 "The customer was successfully updated.","Oppdatering av kunden var vellykket."
 "Company Profile",Firmaprofil
 "Add New Role","Legg til ny regel"
 "Edit Role","Endre rolle"
+"Pending Approval","Venter på godkjenning"
 Rejected,Avvist
+Blocked,Blokkert
 "Invalid login or password.","Ugyldig pålogging eller passord."
 "This account is locked.","Denne kontoen er låst."
 "Your account is not yet approved. If you have questions, please contact the seller.","Din konto er ikke enda godkjent. Hvis du har spørsmål, vennligst kontakt selgeren."
 "Invalid value of ""%value"" provided for the %fieldName field.","Ugyldig verdi for ""% verdi"" gitt for feltet %fieldName."
 "Cannot delete role with id %1","Kunne ikke slette rolle med id %1"
+"The selected user is inactive. To continue, select another user or activate the current user.","Den valgte brukeren er inaktiv. For å fortsette, velg en annen bruker eller aktiver gjeldende bruker."
+"Could not save company: %1","Kan ikke lagre firmaet: %1"
 "Could not create team","Kunne ikke opprette lag"
 "Could not update team","Kunne ikke oppdatere lag"
 "Cannot delete team with id %1","Kunne ikke slette lag med id %1"
 "Something went wrong","Noe gikk galt"
+" - Duplicated"," - Duplisert"
 "Exception message",Unntaksmelding
 phrase,uttrykk
 "Localized Exception.","Lokaliserte unntak."
 "No such entity.","Ingen slik entitet."
 "error message",feilmelding
 "Could not save role","Kunne ikke lagre rolle"
+"""%fieldName"" is required. Enter and try again.""%fieldName"" is required. Enter and try again.","""%fieldName"" må fylles ut. Skriv inn og prøv igjen.""%fieldName"" er nødvendig. Angi og prøv på nytt."
 "Cannot delete team","Kunne ikke slette laget"
 "Role Name",Rollenavn
 "Role Name 15","Rollenavn 15"
@@ -2397,8 +2438,18 @@ Duplicate,Dupliser
 "Customer Type:",Kundetype:
 Company:,Firmanavn:
 "Company Information",Firmainformasjon
+"Company Legal Name","Firmaets juridiske navn"
+"Company Email","Firmaets e-post-adresse"
+"Legal Address","Juridisk adresse"
 "Please select a region, state or province.","Velg en region, stat eller provins."
 "Phone Number",Telefonnummer
+"Company Administrator","Bedriftens administrator"
+"Job Title",Jobbtittel
+"New Company Account","Ny bedriftskonto"
+"Create a Company Account","Opprett en firmakonto"
+"Add User","Legg til bruker"
+"Edit Selected","Rediger valgte"
+"Delete Selected","Slett valgte"
 "User Role",Brukerrolle
 "Team Title","Lag Tittel"
 "You don't have a company account yet.","Du har ikke en firmakonto enda."
@@ -2413,6 +2464,7 @@ Contacts,Kontakter
 "* Your latest changes on the company profile have not been saved yet.","*Din seneste forandring på firmaprofilen har ikke blitt lagret enda."
 "Dear %name,","Kjære %name,"
 "When you sign in to your account, you can:","Når du logger inn på kontoen din, vil du kunne:"
+"Company: %company","Firma: %company"
 "When you sign in to your account, you will be able to:","Når du logger inn på kontoen din, vil du kunne:"
 "If you have any questions, please contact the seller.","Hvis du har noen spørsmål, vennligst kontakt selgeren."
 "Delete a Company?","Slett et firma?"
@@ -2442,6 +2494,7 @@ Comma-separated,Kommadelt
 "This email is sent when company status changes Blocked.","Denne e-posten sendes når selskapets status endres til blokkert."
 "This email is sent when company status changes to Pending Approval.","Denne e-posten sendes når selskapets status endres til Avventer Godkjenning."
 "Account Information (View)","Kontoinformasjon (Se)"
+"Legal Address (View)","Juridisk adresse (Se)"
 "Contacts (View)","Kontrakter (Se)"
 "Company User Management","Selskapets brukeradministrasjon"
 "View roles and permissions","Vis roller og tillatelser"
@@ -2472,11 +2525,13 @@ Suffix,Suffiks
 "Customer Active","Kunde aktiv"
 "This customer is a user of a different company. If you proceed, the customer will be unlinked from the current company and linked to the selected company.","Denne kunden er en bruker av et annet selskap. Hvis du fortsetter, vil kunden bli fjernet fra det gjeldende firmaet og knyttet til det valgte firmaet."
 "Change Company?","Forandre Bedrift?"
+"Associate to Company","Tilknytt firma"
 "My Orders","Mine ordrer"
 "Create New Customer","Opprett ny kunde"
 "Create New Company Account","Opprett ny firma konto"
 Team,Gruppe
 Users,Brukere
+"%fieldName is a required field","%fieldName er et obligatorisk felt"
 "Reimburse Balance","Refundere balanse"
 "Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company is not active.","Er du sikker på at du vil fjerne denne bestillingen? Bestillingsbeløpet vil ikke bli tilbakestilt til %1 fordi selskapet ikke er aktivt."
 "Are you sure you want to cancel this order? The order amount will not be reverted to %1 because the company associated with this customer does not exist.","Er du sikker på at du vil fjerne denne bestillingen? Bestillingsbeløpet vil ikke bli tilbakestilt til %1 fordi selskapet tilknyttet denne kunden ikke finnes."
@@ -2558,11 +2613,22 @@ Specified,Spesifisert
 "Add configurable attributes to the existing Attribute Set","Legg til konfigurerbare attributter til eksisterende attributtsett"
 "Choose existing Attribute Set","Velg eksisterende attributtsett"
 Configurations,Konfigurasjoner
+"Attribute Values",Attributt-verdier
+"Select Attributes","Velg attributter"
 "Choose an Option...","Velg et alternativ..."
+"This attribute is used in configurable products.","Dette attributtet er brukt i konfigurerbare produkter."
 "Product has been already attached","Produktet er allerede tilknyttet"
+"Requested option doesn't exist: %1","Det forespurte alternativet eksisterer ikke: %1"
 "You can't add the item to shopping cart.","Du kan ikke legge produkt til handlekurven."
 Confirm,Bekreft
+"Create Configurations","Opprett konfigurasjoner"
+"Current Variations","Gjeldende variasjoner"
 Weight,Vekt
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Denne gruppen inneholder attributter som brukes i konfigurerbare produkter. Vennligst flytt disse attributtene til en annen gruppe og prøv på nytt."
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Attributtet brukes i konfigurerbare produkter. Du kan ikke fjerne det fra attributtsettet."
+"Associated Products","Tilknyttede produkter"
+"Step 2: Attribute Values","Trinn 2: Attributtverdier"
+"Select values from each attribute to include in this product. Each unique combination of values creates a unique product SKU.","Velg verdier fra hvert attributt som skal inkluderes i dette produktet. Hver unike kombinasjon av verdier skaper en unik produkt-SKU."
 "Sort Variations","Sorter variasjoner"
 Options,Innstillinger
 "Deselect All","Opphev merking av alle"
@@ -2570,11 +2636,58 @@ Options,Innstillinger
 "Save Option","Lagre alternativer"
 "Remove Option","Fjern Alternativ"
 "Create New Value","Lag ny verdi"
+"Step 3: Bulk Images, Price and Quantity","Trinn 3: Bilder, pris og antall"
+"Based on your selections %1 new products will be created. Use this step to customize images and price for your new products.","Basert på valgene, vil %1 nye produkter opprettes. Bruk dette trinnet for å tilpasse bilder og priser på dine nye produkter."
+"Remove image","Fjern bilde"
 "Select attribute","Velg attributt"
 Select,Velg
+"Apply single price to all SKUs","Bruk singel-pris på alle SKU-er"
 "Skip price at this time","Hopp over prisen på dette tidspunktet"
+"Skip quantity at this time","Hopp over antall på dette tidspunktet"
+"Step 1: Select Attributes","Trinn 1: Velg attributter"
+"Selected Attributes:","Valgte attributter:"
 "Step 4: Summary","Trinn 4: Sammendrag"
+"Configurable products allow customers to choose options (Ex: shirt color).
+            You need to create a simple product for each configuration (Ex: a product for each color).","Konfigurerbare produkter lar kunder velge alternativer (for eksempel skjorte-farge).
+            Du må lage ett enkelprodukt for hver konfigurasjon (for eksempel ett produkt for hver farge)."
+"Edit Configurations","Endre konfigurasjon"
+"Upload Image","Last opp bilde"
+"Upload image","Last opp bilde"
+"No Image","Ingen bilde"
+"Choose a different Product","Velg et annet produkt"
+"Create Product Configurations","Opprett produktkonfigurasjoner"
+"New Product Review","Ny produktomtale"
+"Here are the products you're about to create.","Her er produktene du er i ferd med å opprette."
+"You created these products for this configuration.","Du opprettet disse produktene for denne konfigurasjonen."
+"Disable Product","Deaktiver produkt"
+"Enable Product","Aktiver produkt"
+"Please choose image(s).","Velg bilde(r)."
+"Please select attribute(s).","Vennligst velg attributt(er)."
+"Generate Products","Opprett produkter"
+"Buy %1 for %2 each and","Kjøp %1 for %2 pr. stk. og"
+save,spar
+"Configurable Product Image","Konfigurerbart produktbilde"
 "As low as: ","Så lav som: "
+"Product already has this option","Produktet har allerede dette alternativet"
+"Product with id ""%1"" does not exist.","Produktet med id ""%1"" finnes ikke."
+"Products ""%1"" and %2 have the same set of attribute values.","Produkter ""%1"" og %2 har samme sett med attributtverdier."
+"Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
+        new products will be created. Use this step to customize images and price for your new products.","Basert på valgene dine vil <span class=""new-products-count"" data-bind=""text:countVariations""></span>
+        nye produkter bli opprettet. Bruk dette trinnet for å tilpasse bilder og pris for dine nye produkter."
+"Edit role","Endre rolle"
+"Please, select attribute for the section ","Velg attributt for delen "
+"Please fill in the values for the section ","Vennligst fyll inn verdiene for denne seksjonen "
+"Please, fill correct values","Vennligst fyll ut riktige verdier"
+"Please, select image(s) for your attribute","Velg bilde(r) for attributtet"
+"Please choose image(s)","Velg bilde(r)"
+"Please, select attribute(s)","Vennligst velg attributt(er)"
+"The product is already attached.","Produktet er allerede lagt ved."
+"The parent product doesn't have configurable product options.","Det overordnede produktet har ikke konfigurerbare produktalternativer."
+"The variations from the ""%1"" product can't be deleted.","Varianter fra produktet ""%1"" kan ikke slettes."
+"The option with ""%1"" ID can't be deleted.","Alternativet med ""%1"" ID kan ikke slettes."
+"An error occurred while saving the option. Please try to save again.","En feil oppstod under lagring av alternativet. Prøv å lagre på nytt."
+"Contribution must have attributes specified. Enter attributes and try again.","Bidraget må ha attributter angitt. Oppgi attributter og prøv på nytt."
+"Configurable product ""%1"" does not have sub-products","Det konfigurerbare produktet ""%1"" har ikke underprodukter"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Takk for at du kontaktet oss med dine kommentarer og spørsmål. Vi vil svare deg snart."
 "An error occurred while processing your form. Please try again later.","En feil oppstod under håndtering av skjemaet. Prøv igjen senere."
 "Name is missing","Navnet mangler"
@@ -5143,6 +5256,17 @@ username,brukernavn
 "Password Change","Endre passord"
 "Last login","Siste pålogging"
 Failures,Fiaskoer
+"If you did not request this change, please contact us.","Hvis du ikke ba om denne endringen, vennligst kontakt oss."
+"New admin user '%user_name' created","Ny administratorbruker '%user_navn' opprettet"
+"A new admin account was created for %first_name, %last_name using %email.","En ny adminkonto ble opprettet for %first_name, %last_name med %email."
+"The password entered for the current user is invalid. Verify the password and try again.","Passordet for gjeldende bruker er ugyldig. Kontroller passordet og prøv igjen."
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Kontoinnlogging var feil, eller kontoen din er midlertidig deaktivert. Vent og prøv på nytt senere."
+"More permissions are needed to access this.","Flere tillatelser kreves for å få tilgang til denne."
+"The password reset token is incorrect. Verify the token and try again.","Token for nullstilling av passordet er ugyldig. Kontroller at token-et er riktig og prøv igjen."
+"Your account is temporarily disabled. Please try again later.","Kontoen er midlertidig deaktivert. Vennligst prøv igjen senere."
+"""User Name"" is required. Enter and try again.","""Brukernavn"" må fylles ut. Skriv inn og prøv på nytt."
+"""First Name"" is required. Enter and try again.","""Fornavn"" må fylles ut. Skriv inn og prøv på nytt."
+"""Last Name"" is required. Enter and try again.","""Etternavn"" er nødvendig. Angi og prøv igjen."
 "First-Class Mail Large Envelope","First-Class Mail Stor Konvolutt"
 "First-Class Mail Letter","A-prioritet brevsending"
 "First-Class Mail Postcards","First-Class Mail Postkort"
