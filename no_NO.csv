@@ -2693,8 +2693,8 @@ save,spar
 "Name is missing","Navnet mangler"
 "Comment is missing","Kommentar mangler"
 "Invalid email address","Ugyldig e-postadresse"
-"Write Us","Skrive til oss"
-"Jot us a note and we’ll get back to you as quickly as possible.","Send oss et notat, og vi vil komme tilbake til deg så raskt som mulig."
+"Write Us","Skriv til oss"
+"Jot us a note and we’ll get back to you as quickly as possible.","Send oss en beskjed, og vi vil komme tilbake til deg så raskt som mulig."
 "What’s on your mind?","Hva har du på hjertet?"
 "Contact Form",Kontaktskjema:
 "Contacts Section",Kontakter-delen
@@ -2709,6 +2709,9 @@ save,spar
 "Email: %email","Epost: %email"
 "Phone Number: %telephone","Telefonnummer: %telephone"
 "Comment: %comment","Kommentar: %comment"
+"Enter the Name and try again.","Skriv inn navnet og prøv på nytt."
+"Enter the comment and try again.","Skriv inn kommentaren og prøv på nytt."
+"The email address is invalid. Verify the email address and try again.","E-postadressen er ugyldig. Kontroller e-postadressen og prøv igjen."
 "Invalid domain name: %1","Ugyldig domenenavn: %1"
 "Invalid cookie lifetime: %1","Ugyldig cookie levetid: %1"
 "Invalid cookie path","Ugyldig informasjonskapselbane"
@@ -3215,7 +3218,7 @@ contains,inneholder
 Billing,Fakturering
 has,har
 "does not have","har ikke"
-"Newsletter Subscription","Nyhetsbrev abonnement"
+"Newsletter Subscription",Nyhetsbrev-abonnement
 "Open Chooser","Åpne Velger"
 "Order Status",Bestillingsstatus
 "Order Status %1 %2:","Ordrestatus %1 %2:"
@@ -3633,6 +3636,7 @@ Archive,Arkiv
 "Enabled Actions","Aktiverte handlinger"
 "Mass Delete",Masseslette
 Move,Flytt
+Reorder,"Bestill igjen"
 Print,"Skriv ut"
 Create,Opprett
 "URL Rewrites","URL omskrivinger"
@@ -3906,6 +3910,7 @@ Subscribers,Abonnenter
 "Create Newsletter Template","Opprett mal for nyhetsbrev"
 "The newsletter template has been saved.","Malen for nyhetsbrev har blitt lagret."
 "Something went wrong while saving this template.","Noe gikk galt under lagringen av denne malen."
+"Newsletter Subscription","Nyhetsbrev abonnement"
 "We saved the subscription.","Abonnementet er påmeldt."
 "We removed the subscription.","Abonnementet er avmeldt."
 "Your subscription has been confirmed.","Abonnementet er bekreftet."
@@ -3924,7 +3929,7 @@ Subscribe,Abonner
 "Newsletter subscription confirmation","Nyhetsbrev abonnement bekreftelse"
 "Newsletter Template","Nyhetsbrev Mal"
 "Newsletter Section","Nyhetsbrev Seksjon"
-"Subscription Options","Abonnement alternativer"
+"Subscription Options",Abonnements-alternativer
 "Allow Guest Subscription","Tillat gjesteabonnering"
 "Need to Confirm","Trenger å bekrefte"
 "Confirmation Email Template","Bekreftelse e-post mal"
@@ -3991,11 +3996,18 @@ Instructions,Instruksjoner
 "Please enter a valid credit card number.","Angi et gyldig kredittkortnummer."
 "Billing Agreements",Faktureringsavtaler
 "Reference ID",Referanse-ID
+"Billing Agreement #%1","Faktureringsavtale #%1"
 "Related Orders","Relaterte ordrer"
 "View Transaction Details","Vis transaksjonsdetaljer"
+"Transaction Information",Transaksjons-informasjon
 "Fetch Updates","Hent Oppdateringer"
 Help,Hjelp
+"View Demo","Vis demo"
+"See terms","Se vilkår"
+"You will be redirected to the PayPal website.","Du blir videresendt til PayPal."
+"You will be redirected to the PayPal website when you place an order.","Du blir videresendt til PayPal når du gjennomfører bestillingen."
 "Invalid block type","Ugyldig blokktype"
+"Billing Agreement # %1","Faktureringsavtale # %1"
 "Authorization is not allowed.","Autorisasjon er ikke tillatt."
 "A match of the Shipping Address City, State, and Postal Code failed.","Matching av leveringsdressens sted, fylke og postnummer mislyktes."
 "We prefer PayPal (150 X 60)","Vi foretrekker PayPal (150 X 60)"
@@ -4017,7 +4029,14 @@ Dispute,Tvist
 "Finish Date","Slutt dato"
 "Debit or Credit","Debit og kredit"
 "Yes (PayPal recommends this option)","Ja (PayPal anbefaler dette alternativet)"
+"Billing Agreement",Faktureringsavtale
+"Billing Agreement # ","Faktureringsavtale # "
 "Payment Method:",Betalingsmåte:
+"Back to Billing Agreements","Tilbake til faktureringsavtaler"
+"There are no billing agreements yet.","Det er ingen faktureringsavtaler ennå."
+"New Billing Agreement","Ny faktureringsavtale"
+"You will be redirected to the payment system website.","Du blir videresendt til PayPal."
+"Your billing agreement # is: ","Din faktureringsavtale # er: "
 "Please select a shipping method...","Vennligst velg leveringsmåte..."
 "Buy now with PayPal","Kjøp nå med PayPal"
 "Items in Your Shopping Cart","Varer i din handlekurv"
@@ -4367,14 +4386,26 @@ Invoices,Fakturaer
 "Create New Order","Opprette ny ordre"
 "Save Order Address","Lagre bestillingsadresse"
 "Submit Order","Send inn bestilling"
+"Are you sure you want to cancel this order?","Er du sikker på at du vil kansellere denne bestillingen?"
 "Order Comment","Kommentarer til ordren"
+"Please select a customer","Velg en kunde"
+"Edit Order #%1","Rediger ordre #%1"
 "Items Ordered","Bestilte produkter"
+"This product is disabled.","Dette produktet er deaktivert."
+"This product does not have any configurable options","Dette produktet har ingen konfigurerbare alternativer"
+"Please select products","Vennligst velg produkter"
+"Add Selected Product(s) to Order","Legg valgte produkt(er) til ordre"
+"Update Changes","Oppdater endringer"
 "Are you sure you want to delete all items from shopping cart?","Er du sikker på at du vil slette alle varer fra handlekurv?"
+"Products in Comparison List","Produkter i sammenligningslisten"
 "Last Ordered Items","Siste bestilte varer"
 "Please select a store","Vennligst velg en butikk"
 "Order Totals",Ordretotal
 "Shipping Incl. Tax (%1)","Frakt inkl. merverdiavgift (%1)"
 "Shipping Excl. Tax (%1)","Frakt eks. merverdiavgift (%1)"
+"Refund Shipping","Tilbakebetal fraktkostnader"
+"Update Qty's","Oppdater antall"
+"Update Totals","Oppdater totaler"
 Refund,Refundering
 "Refund Offline","Tilbakebetaling Frakoblet"
 "Paid Amount","Betalt beløp"
@@ -4386,11 +4417,15 @@ Refund,Refundering
 "Submit Invoice","Send faktura"
 "Credit Memo",Kreditnota
 Capture,Fange
+"The invoice email was sent.","E-post-fakturaen ble sendt."
+"The invoice email wasn't sent.","E-post-fakturaen ble ikke sendt."
 "Invoice #%1 | %2 | %4 (%3)","Faktura #%1 | %2 | %4 (%3)"
 "Order Statuses",Ordrestatuser
 "Create New Status","Lag ny status"
 "Order State",Bestillingsstatus
+"Edit Order Status","Endre ordrestatus"
 "Save Status","Lagre Status"
+"Order Status Information","Informasjon om ordrestatus"
 "Status Code","Status kode"
 "Total Paid","Totalt Betalt"
 Ship,Sende
@@ -4415,6 +4450,8 @@ Unassign,"Oppheve tilordning"
 """%1"" coupon code was not applied. Do not apply discount is selected for item(s)","""%1"" kupongkode ble ikke brukt. Ikke legg til rabatt er valgt for vare(r)"
 "The coupon code has been accepted.","Rabattkoden er godkjent."
 "Cannot add new comment.","Kan ikke legge til ny kommentar."
+"View Memo for #%1","Vis notat for #%1"
+"View Memo","Vis notat"
 "The order no longer exists.","Ordren finnes ikke lenger."
 "Something went wrong while saving the gift message.","Noe gikk galt når du lagret gavemeldingen."
 "You saved the gift card message.","Du lagret gavemeldingen."
@@ -4429,10 +4466,17 @@ Unassign,"Oppheve tilordning"
 "Sold to:","Solgt til:"
 "Shipping Method:",Leveringsmåte:
 "Total Shipping Charges","Totale fraktkostnader"
+"New Orders","Nye bestillinger"
+"Details for %1 #%2","Detaljer for %1 #%2"
+"Comment: %1<br/>","Kommentar: %1<br/>"
+"Current Status: %1<br/>","Nåværende status: %1<br/>"
+"Total: %1<br/>","Totalt: %1<br/>"
 """Shipment Document Validation Error(s):\n"" .","""Levering dokument godkjenningensfeil: \n""."
 Complete,Ferdig
 "Email has not been sent","E-post er ikke sendt"
 "Changing address information will not recalculate shipping, tax or other order amount.","Å endre adressen vil ikke beregne frakt eller andre beløp."
+"Notify Customer by Email","Varsle kunden via e-post"
+"Visible on Storefront","Synlig i butikk"
 "Gift Message for the Entire Order","Gavemelding for hele bestillingen"
 "Move to Shopping Cart","Legg til handlekurv"
 "You don't need to select a shipping method.","Du trenger ikke å velge en leveringsmetode."
@@ -4456,7 +4500,9 @@ Complete,Ferdig
 "You have placed no orders.","Du har ingen ordrer."
 "Print Order","Skriv ut ordre"
 "About Your Order","Din bestilling"
+"Recent Orders","Siste bestillinger"
 "Gift Message for This Order","Gavemelding for denne bestillingen"
+"Recently Ordered","Nylig bestilt"
 "Credit memo for your %store_name order","Kreditnota for bestillingen %store_name"
 "Thank you for your order from %store_name.","Takk for bestillingen din fra %store_name."
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Du kan sjekke statusen for bestillingen din ved å <a href=""%account_url""> logge inn på din konto</a>."
@@ -4483,6 +4529,7 @@ Complete,Ferdig
 "Send Sales Emails","Send salgsepost"
 "Sales Section",Salgsdel
 "Sales Emails Section","Epost del for salg"
+"Logo for HTML Print View","Logo for HTML-utskriftsvisning"
 "Subtotal after discount","Delsum etter rabatt"
 "Include Tax to Amount","Inkluder mva i beløp"
 "Error to Show in Shopping Cart","Feil å vise i handlekurv"
@@ -4870,13 +4917,18 @@ Swatch,Fargeprøve
 "Admin is a required field in the each row","Admin er et obligatorisk felt i hver rad"
 "Related Products Rule","Regel for relaterte produkter"
 "Products to Display","Produkter å vise"
+"Products to Match","Produkter som passer"
 "General Rule Information","Generell Regel Informasjon"
+"Result Limit",Resultatgrense
+"Maximum number of products this rule can apply to (up to 20).","Maksimalt antall produkter denne regelen kan gjelde for (opptil 20)."
+"Product Rule Information",Produktregel-informasjon
 "Product %1%2%3%4%5%6%7","Produkt %1%2%3%4%5%6%7"
 "Constant Value","Konstant Verdi"
 "Target Product ","Mål Produkt "
 "Price (percentage)","Pris (prosent)"
 more,mer
 less,mindre
+"Related Products","Relaterte produkter"
 "Target Rule","Mål Regel"
 "Target Rule Index","Mål Regel Index"
 "Product/Target Rule","Produkt/Mål Regel"
@@ -5294,6 +5346,7 @@ Other,Andre
 "Variable ID","Variabel ID"
 "No token found.","Ingen token funnet."
 "Deletion failure. Please try again.","Feil ved sletting. Prøv på nytt."
+"Stored Payment Methods","Lagrede betalingsmetoder"
 "Credit Card was successfully removed","Vellykket fjerning av kredittkort"
 "You have no credit cards.","Du har ingen kredittkort."
 "Delete Current Hierarchy","Slette gjeldende hierarki"
