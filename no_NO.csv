@@ -48,6 +48,7 @@ notice,varsel
 Close,Lukk
 "See All (","Se alle ("
 " unread)"," uleste)"
+"System Messages",Systemmeldinger
 "Show Toolbar","Vis verktøylinje"
 "Show List","Vis liste"
 "Use HTTPS to Get Feed","Bruk HTTPS for å få tjener"
@@ -223,10 +224,14 @@ Yes,Ja
 "Error while checking if topic is synchronous","Feil under kontroll av om emnet er synkront"
 "Subscription status",Påmeldingsstatus
 "Sorry, there has been an error processing your request. Please try again later.","Beklager, det oppstod en feil under behandling av forespørselen. Prøv igjen senere."
+"The time value is using an unsupported format. Enter a supported format and try again.","Tidsverdien bruker et format som ikke støttes. Angi et format som støttes, og prøv på nytt."
 "Cron settings can't be saved","Cron alternativer kan ikke lagres"
 "There was an error save new configuration value.","Det oppstod en feil under lagringen av ny konfigurasjonsverdi."
 "Please select an industry.","Vennligst velg en bransje."
 "--Please Select--","-Vennligst velg--"
+"Command ""%1"" was not found.","Handlingen ""%1"" ble ikke funnet."
+"The data is invalid. Use a valid cipher method and try again.","Informasjonen er ugyldig. Vennligst bruk en gyldig krypteringsmetode og forsøk igjen."
+"The ""%1"" source doesn't exist.","""%1"" eksisterer ikke."
 "These arguments can't be empty ""%1""","Disse argumentene kan ikke være tom ""%1"""
 "Cannot find predefined integration user!","Finner ikke den forhåndsdefinerte integreringsbrukeren!"
 "File is not ready yet.","Filen er ikke klar ennå."
@@ -243,11 +248,19 @@ TestMessage,TestMelding
 Configuration,Innstillinger
 "Business Intelligence",Forretningsinformasjon
 "BI Essentials","BI  Enkel"
+"This service provides a dynamic suite of reports with rich insights about your business.
+                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
+                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
+                terms and conditions</a>.","Denne tilbyderen leverer en dynamsik rapportpakke som gir deg et rikt innsyn om din bedrift. Du kan få tilgang til dine rapporter sikkert via et personlig kontrollpanel utenfor din nettbutikk ved å følge denne linken.  ""Vis avanserte rapporter"" </br> For mer informasjon se <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">                 for betingelser og vilkår</a>."
 "Advanced Reporting Service","Avansert rapporteringstjeneste"
 "Time of day to send data","Tiden på dagen for å sende data"
+"Industry Data","Industri Data"
 Industry,Industri
 "In order to personalize your Advanced Reporting experience, please select your industry.","For å tilpasse opplevelsen avansert rapportering, velg din bransje."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Få mer innsikt fra Magento bedriftsinformasjon</strong>"
+"Magento Business Intelligence provides you with a simple and clear path to
+                    becoming more data driven.</br> Learn more about <a target=""_blank""
+                    href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essentials and BI Pro</a> tiers.","Magento Foretaksanalyse tilbyder gir deg en enkel og god oversikt hvordan bli flinkere i forhold til dataflyt</br>Les mer om dette her <a target=""_blank""      href=""https://dashboard.rjmetrics.com/v2/magento/signup/""> Magento BI Enkel og BI Pro</a>."
 "Auto Parts","Automatiske deler"
 "Baby/Children’s Apparel, Gear and Toys","Baby/barn klær, utstyr og leker"
 "Beauty and Cosmetics","Skjønnhet og velvære"
@@ -266,11 +279,14 @@ Industry,Industri
 "Pet Goods","Kjæledyr utstyr"
 "Pharma and Medical Devices","Farmasøytisk og medisinsk utstyr"
 "Technology B2B","Teknologi B2B"
+Other,Annet
 Done,Utført
 Retry,"Prøv på nytt"
 "'Action Details - #' .","'Handlingsdetaljer - #'."
 "%1 item(s) have been scheduled for update.""","%1 vare(r) er nå planlagt for oppdatering."""
 "Bulk Actions Log","Logg for massebehandling"
+"Bulk uuid %bulkUuid not exist","Bulk uuid %bulkUuid eksisterer ikke"
+"Topic %1","Emnet %1"
 "%1 item(s) are currently being updated.","%1 vare(r) er under oppdatering."
 "Task ""%1"": ","Oppgave ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 vare(r) er nå planlagt for oppdatering."
@@ -285,7 +301,9 @@ Dismiss,Avbryt
 ", %1 failed to update",", %1 kunne ikke oppdatere"
 "Something went wrong.","Noe gikk galt."
 "Action Log",Handlingslogg
+Report,Rapport
 "Bulk Actions",Massehandlinger
+"Action Logs",Handlingslogg
 "Days Saved in Log","Dager lagret i loggen"
 "Description of Operation","Beskrivelse av operasjonen"
 Summary,Sammendrag
@@ -298,6 +316,7 @@ Error,Feil
 "Dismiss All Completed Tasks","Forkaste alle fullførte oppgaver"
 "Action Details - #","Handlings-detaljer -#"
 "Number of Records Affected","Antall poster som påvirkes"
+"The role wasn't found for the user. Verify the role and try again.","Brukerens rolle ble ikke funnet. Kontroller rollen og prøv igjen."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noe gikk galt ved kompileringen av en liste over tillatte ressurser. Du kan finne ut mer i unntaksloggen."
 "You created the order.","Du opprettet ordren."
 "Order saving error: %1","Ordrelagringsfeil: %1"
@@ -325,6 +344,7 @@ void,Ugyldig
 "The transaction was declined because the response hash validation failed.","Transaksjonen ble nektet, siden validering feilet."
 "There was a payment authorization error.","Det oppstod en feil ved betaling, grunnet valideringsfeil."
 "Please enter a transaction ID to authorize this payment.","Vennligst fyll inn transaksjonsnummer for å autorisere denne betalingen."
+"Something went wrong: the paid amount doesn't match the order amount. Please correct this and try again.","Noe gikk galt: det betalte beløpet samsvarer ikke med bestillingsbeløpet. Korriger dette, og prøv på nytt."
 "Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","Transaksjon %1 har blitt godkjent. Beløp %2. Transaksjonsstatus er ""%3"""
 "Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","Transaksjon %1 har blitt avslått. Transaksjonsstatus er ""%2"". Beløp %3."
 "Authorize Only","Bare godkjenne"
@@ -370,12 +390,28 @@ Debug,Feilsøk
 "Unable to place order. Please try again later.","Kan ikke ta imot bestilling. Prøv igjen senere."
 "A server error stopped your order from being placed. Please try to place your order again.","En serverfeil stoppet bestillingen fra blir gjennomført. Prøv å bestille igjen."
 "The transaction details are unavailable. Please try again later.","Transaksjonsdetaljer er ikke tilgjengelige. Prøv igjen senere."
+"Signature Key","Signatur nøkkel"
+"Basic Authorize.Net Settings","Grunnleggende Authorize.Net innstillinger"
 Environment,Miljø
+"Public Client Key","Offentlig klientnøkkel"
+"Merchant MD5 (deprecated)","Butikk MD5 (foreldet)"
+"Advanced Authorize.Net Settings","Grunnleggende Authorize.Net innstillinger"
+"Enable Credit Card Verification Field","Aktiver CSV verifikasjonsfelt"
+"Invalid request to gateway.","Ugyldig forespørsel til gateway."
 "Transaction has been declined. Please try again later.","Transaksjonen er avslått. Prøv igjen senere."
 options,innstillinger
 "Select all","Velg alle"
 "Deselect all","Opphev merking"
+Selected,Valgt
 "We couldn't find any records.","Vi kunne ikke finne noen poster."
+" Item(s)"," Produkt(er)"
+"Items ","Produkter "
+" to "," til "
+" of "," av "
+Page,Side
+Previous,Forrige
+"You're currently reading page","Du leser for øyeblikket siden"
+Next,Neste
 Show,Vis
 "per page","per side"
 "%s of %s selected","%s av %s valgt"
@@ -384,6 +420,7 @@ Show,Vis
 "B2B Features",B2B-funksjoner
 "Invalid Form Key. Please refresh the page.","Ugyldig skjemanøkkel. Vennligst oppdater siden."
 "You entered an invalid Secret Key. Please refresh the page.","Du oppga en ugyldig hemmelig nøkkel. Oppdater siden."
+"Invalid security or form key. Please refresh the page.","Ugyldig skjemanøkkel. Vennligst oppdater siden."
 "Cache Storage Management","Cache lagringsadministrasjon"
 "Flush Magento Cache","Tømme Magento Cache"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Mellomlageret kan inneholde ekstra data. Er du sikker på at du vil tømme det?"
@@ -436,6 +473,7 @@ Rebuild,Gjenoppbygg
 "Rebuild Flat Catalog Category","Gjenoppbygg flat katalogkategori"
 "Rebuild Flat Catalog Product","Gjenoppbygg flat katalogprodukt"
 "Cache Control","Cache Kontroll"
+"All Cache","Alt lagret i Cache"
 "No change","Ingen endringer"
 Disable,Deaktiver
 Enable,Aktivere
@@ -485,6 +523,7 @@ Stores,Butikker
 "Create Store View","Opprett butikkvisning"
 Home,Hjem
 "Are you sure you want to do this?","Er du sikker på at du vil gjøre dette?"
+label,etikett
 "Add New Image","Legg til nytt bilde"
 "Export block for grid %1 is not defined","Eksport blokk for rutenett %1 er ikke definert"
 "Reset Filter","Tilbakestill filter"
@@ -496,6 +535,8 @@ To,Til
 "Date selector",Datovelger
 "[ deleted ]",[slettet]
 "Select All","Velg alle"
+" [deleted]"," [slettet]"
+"We couldn't find any records.","Vi kunne desverre ikke finne noen oppføringer."
 "Add New","Legg til ny"
 "Invalid export type supplied for grid export block","Ugyldig eksporttype angitt for grid eksport blokk"
 Export,Eksport
@@ -512,6 +553,7 @@ Submit,Lagre
 "The static files cache has been cleaned.","Hurtigbufferen for statiske filer har blitt tømt."
 "You flushed the cache storage.","Du tømmet hurtigbuffelageret."
 "The Magento cache storage has been flushed.","Magento butikkbuffer lagringen er tømt."
+"Cache Management",Cachebehandling
 "You can't change status of cache type(s) in production mode","Du kan ikke endre status for hurtigbuffertype(r) i produksjonsmodus"
 "%1 cache type(s) disabled.","%1 cache type(r) deaktivert."
 "An error occurred while disabling cache.","Det oppstod en feil under deaktivering av cache."
@@ -521,6 +563,7 @@ Submit,Lagre
 "An error occurred while refreshing cache.","Det oppstod en feil under oppdatering av cache."
 Dashboard,Kontrollpanel
 "We updated lifetime statistic.","Vi oppdaterte levetid statistikk."
+"We can't refresh lifetime statistics.","Vi kan ikke oppdatere levetid statistikk."
 "invalid request","ugyldig forespørsel"
 "see error log for details","se feilloggen for detaljer"
 "Service unavailable: %1","Tjenesten er ikke tilgjengelig: %1"
@@ -563,16 +606,20 @@ Dashboard,Kontrollpanel
 "You saved the store.","Du lagret butikken."
 "Something went wrong while saving. Please review the error log.","Noe gikk galt under lagring. Kontroller feilloggen."
 "Authentication storage is incorrect.","Autentiseringslagring er feil."
+Today,"I dag"
 "Last 24 Hours","Siste 24 timer"
 "Last 7 Days","Siste 7 dager"
 "Current Month","Gjeldende måned"
 YTD,"Hittil i år"
+2YTD,"2 ÅTD"
 Order,Rekkefølge
 "Order #%1","Ordre # %1"
+Edit,Rediger
 "Sorry, you need permissions to view this content.","Beklager, trenger du tillatelse til å vise dette innholdet."
 "Next steps","De neste trinnene"
 "If you think this is an error, try signing out and signing in again.","Hvis du tror dette er en feil, prøve å logge ut og logge på igjen."
 "Contact a system administrator or store owner to gain permissions.","Kontakt en systemansvarlig eller butikkeier for å få tillatelse."
+"Return to ","Gå tilbake til "
 "previous page","forrige side"
 "Welcome, please sign in","Velkommen, vennligst logg inn"
 Username,Brukernavn
@@ -598,19 +645,20 @@ password,passord
 "Sign Out","Logg ut"
 "About the calendar","Om kalenderen"
 "Go Today","I Dag"
-Previous,Forrige
-Next,Neste
 Time,Tid
 Hour,Time
 Minute,Minutt
 "JavaScript may be disabled in your browser.","JavaScript kan være deaktivert i nettleseren."
 "To use this website you must first enable JavaScript in your browser.","For å bruke nettstedet må du først aktivere JavaScript i nettleseren."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Dette er bare en demo butikk. Du kan bla gjennom og plassere bestillinger, men ingenting vil bli behandlet."
+"Privacy Policy",Personvernserklæring
 "Report an Issue","Rapporter en feil"
+Scope:,Omfang:
 "Stores Configuration","Butikk konfigurasjon"
 "Additional Cache Management","Ekstra Cache Konfigurasjon"
 "Flush Catalog Images Cache","Flush katalogen bilder Cache"
 "Pregenerated product images files","Forhåndsgenererte produkt bildefiler"
+"Flush JavaScript/CSS Cache","Tøm JavaScript/CSS Cache"
 "Themes JavaScript and CSS files combined to one file","Temaer JavaScript og CSS-filer sammen til én fil"
 "Flush Static Files Cache","Flush Statiske Filer Cache"
 "Preprocessed view files and static files","Forhåndsprosessert visning og statiske filer"
@@ -635,8 +683,14 @@ selected,valgt
 "The information in this tab has been changed.","Informasjonen under denne fanen er endret."
 Loading...,Laster...
 "User Agent Rules","Bruker Agent regler"
+Examples,Eksempler
+"Previous Page","Forrige side"
+"Next Page","Neste side"
+"Use Default Value","Bruk standardverdi"
 "We could not detect a size.","Vi kunne ikke oppdage en størrelse."
+"Warning message","Advarsel melding"
 "Allow everything","Tillat alt"
+"Magento Admin","Magento admin"
 "Global Search","Globalt søk"
 Marketing,Markedsføring
 "SEO & Search","SEO & søk"
@@ -651,6 +705,7 @@ Attributes,Attributter
 "Data Transfer",Dataoverføring
 "Package Extensions",Pakkeutvidelser
 Tools,Verktøy
+"Flush Static Files","Tøm statiske genererte filer"
 Currency,Valuta
 Communications,Kommunikasjon
 Services,Tjenester
@@ -665,6 +720,7 @@ Advanced,Avansert
 "Sales Representative",Salgsrepresentant
 "Customer Support",Kundestøtte
 Developer,Utvikler
+"Parameter Value",Parameterverdi
 "Template Settings","Mal alternativer"
 "Allow Symlinks","Tillate Symlinks"
 "Minification is not applied in developer mode.","Minification brukes ikke i utviklermodus."
@@ -708,13 +764,16 @@ City,By
 "This setting will not be taken into account if system has more than one store view.","Dette alternativet vil ikke bli tatt med i vurderingen hvis systemet har mer enn en butikkvisning."
 "Mail Sending Settings","Epost sending alternativer"
 "Disable Email Communications","Deaktiver e-kommunikasjon"
+"For Windows server only.","Kun for Windows server."
 "Set Return-Path","Angi returadresse"
 "Return-Path Email","Retur-adresse Email"
+"Maximum Height","Maksimal høyde"
 "Admin User Emails","Admin bruker e-post"
 "Forgot Password Email Template","Glemt passord e-post mal"
 "Email template chosen based on theme fallback when ""Default"" option is selected.","E-postmal valgt basert på tema fallback når ""Default"" alternativet er valgt."
 "Forgot and Reset Email Sender","Glemt og Resend Epost Sender"
 "Startup Page",Startsiden
+"Admin Base URL","Admin Standard Nettadresse"
 "Use Custom Admin URL","Bruk egendefinert Admin URL"
 "Custom Admin URL","Egendefinert Admin URL"
 "Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","Kontroller at standard-URLen slutter med ' /' (skråstrek), f.eks http://yourdomain/magento/"
@@ -795,6 +854,7 @@ successful,vellykket
 "You deleted the selected backup(s).","Du har slettet valgt(e) sikkerhetskopi(er)."
 "Please correct the password.","Korriger passordet."
 "To complete the rollback, please deselect ""Put store into maintenance mode"" or update your permissions.","For å fullføre tilbakeføring, vennligst fjern markeringen for «Sett butikk i vedlikeholdsmodus» eller oppdatere tillatelsene."
+"We can't find the backup file.","Vi finner ikke sikkerhetskopien."
 "We can't connect to the FTP right now.","Vi kan ikke opprette noen tilkobling til FTP-serveren akkurat nå."
 "Failed to validate FTP.","Kan ikke validere FTP."
 "You need more permissions to perform a rollback.","Du trenger flere tillatelser for å utføre en tilbakeføring."
@@ -812,6 +872,8 @@ successful,vellykket
 "Sorry, but we cannot read from or write to backup file ""%1"".","Beklager, men vi kan ikke lese fra eller skrive til sikkerhetskopifilen ""%1""."
 "The backup file handler was unspecified.","Sikkerhetskopifilbanen ble ikke angitt."
 "Something went wrong while writing to the backup file ""%1"".","Noe gikk galt under skriving til sikkerhetskopifilen ""%1""."
+"We can't save the Cron expression.","Cron-regelen kan ikke lagres."
+"Backup functionality is disabled","Sikkerhetskopiering er deaktivert"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Du vil miste data opprettet etter siste backup ble gjort, inkludert administratorbrukere, kunder og bestillinger."
 "Are you sure you want to continue?","Er du sikker på at du vil fortsette?"
 "This may take a few moments.","Dette kan ta litt tid."
@@ -834,12 +896,19 @@ Exclude,Ekskluder
 "Magento root directory","Magento root mappe"
 "Create Backup","Opprett sikkerhetskopi"
 Rollback,"Rull tilbake"
+"Backup Settings","Innstillinger for sikkerhetskopiering"
+"Enable Backup","Aktiver sikkerhetskopiering"
 "Enable Scheduled Backup","Aktiver planlagt sikkerhetskopiering"
+"Scheduled Backup Type","Planlegg sikkerhetskopiering"
 Frequency,Frekvens
 "Maintenance Mode",Vedlikeholdsmodus
 "Are you sure you want to delete the selected backup(s)?","Er du sikker på at du vil slette valgt(e) sikkerhetskopi(er)?"
 Size(bytes),Størrelse(bytes)
 Download,"Last ned"
+"Dynamic Blocks","Dynamiske blokker"
+"Add Dynamic Block","Legg til dynamisk blokk"
+"Save Dynamic Block","Lagre dynamisk blokk"
+"Delete Dynamic Block","Slett dynamisk blokk"
 "Save and Continue Edit","Lagre og fortsett redigering"
 "Default Content",Standardinnhold
 "No Default Content","Ingen standardinnhold"
@@ -856,10 +925,13 @@ Inactive,Inaktiv
 Position,Posisjon
 "This rule no longer exists.","Denne regelen finnes ikke lenger."
 "You deleted %1 record(s).","Du slettet %1 oppføring(er)."
+"Invalid Request","Ugyldig forespørsel"
 "Please enter a name.","Skriv inn et navn."
 "-- None --","-- Ingen --"
+"Invalid content","Ugyldig innhold"
 "Content Area",Innholdsområde
 Footer,Bunntekst
+Header,Overskrift
 "Left Column","Venstre kolonne"
 "Right Column","Høyre kolonne"
 "Rotation Mode",Roteringsmodus
@@ -867,6 +939,9 @@ Footer,Bunntekst
 "One at the time, Random","En av gangen i tilfeldig rekkefølge"
 "One at the time, Series","En av gangen i sekvens"
 "One at the time, Shuffle","En av gangen i tilfeldig rekkefølge"
+"Status Label","Status etikett"
+"General Information","Generell Informasjon"
+"Add Selected","Legg til valgte"
 Visibility,Synlighet
 "All Segments","Alle segmenter"
 "Customer Segment",Kundesegment
@@ -879,6 +954,7 @@ Visibility,Synlighet
 "Payment method nonce can't be retrieved.","Betalingsmetode nonce kan ikke hentes."
 "Wrong transaction status","Feil transaksjonsstatus"
 Authorize,Autoriser
+"Credit Card",Kredittkort
 ending,slutter
 expires,utløper
 "Please agree to all the terms and conditions before placing the order.","Vennligst godta alle vilkår og betingelser før bestilling."
@@ -912,13 +988,16 @@ YY,ÅÅ
 "Too many concurrent attempts to void this transaction. Try again later.","For mange samtidige forsøk på å ugyldiggjøre denne transaksjonen. Prøv igjen senere."
 "Enable this Solution","Aktiver løsningen"
 "Enable PayPal through Braintree","Aktiver PayPal gjennom Braintree"
+"Vault Enabled","Hvelv aktivert"
 "Basic Braintree Settings","Grunnleggende Braintree innstillinger"
 "Merchant ID","Selger ID"
 "Public Key","Offentlig nøkkel"
 "Private Key","Privat nøkkel"
 "Advanced Braintree Settings","Avansert Braintree innstillinger"
+"Vault Title","Tittel på hvelvet"
 "Merchant Account ID","Kjøpmann konto-ID"
 "Advanced Fraud Protection","Avansert svidelbeskyttelse"
+"Kount Merchant ID","Kount kjøpmann ID"
 "CVV Verification","CVV bekreftelse"
 "Country Specific Settings","Landspesifikke instillinger"
 "Country Specific Credit Card Types","Landet bestemte kredittkort typer"
@@ -935,12 +1014,14 @@ YY,ÅÅ
 "Verify for Specific Countries","Bekreft for bestemte land"
 "Dynamic Descriptors","Dynamiske beskrivere"
 Phone,Telefon
+"CVV is required.","CVV er påkrevd."
 "Expiration year is invalid. It must be between 1975 and 2201.","Utløpsdato er ugyldig. Det må være mellom 1975 og 2201."
 "CVV verification failed.","CVV verifikasjon feilet."
 "Postal code verification failed.","Postkode verifikasjon feilet."
 "Credit card number is prohibited.","Kreditkortnummer er påbudt."
 "Addresses must have at least one field filled in.","Addresser må ha minst et felt fylt inn."
 "Company is too long.","Firmanavn er for langt."
+"Postal code can only contain letters, numbers, spaces, and hyphens.","Postnummer kan bare inneholde bokstaver, tall, mellomrom og bindestreker."
 "US state codes must be two characters to meet PayPal Seller Protection requirements.","Amerikanske stat-koder må være to tegn for å oppfylle PayPal Sellers beskyttelseskrav."
 "Incomplete PayPal account information.","Ufullstendig PayPal-kontoinformasjon."
 "Invalid PayPal account information.","Ugyldig PayPal-kontoinformasjon."
@@ -971,29 +1052,42 @@ Amount,Antall
 Month,Måned
 Year,År
 "Stored Card","Lagrede kort"
+"Credit card successfully added","Kredittkort ble vellykket lagt til"
+"Something went wrong while saving the card.","En feil oppstod ved lagring av kort."
 "Credit card does not exist","Kredittkort finnes ikke"
+"Delete Credit Card","Fjern kredittkort"
+"There was error deleting the credit card","Det oppstod en feil ved sletting av kredittkortet"
 "Credit card successfully deleted","Vellykket sletting av kredittkort"
 "Edit Credit Card","Redigere kredittkort"
 "My Credit Cards","Mine kredittkort"
 "New Credit Card","Nytt kredittkort"
+"There was error during saving card data","Det oppstod en feil under lagring av kortdata"
+"We can't place the order.","Vi kan ikke gjennomføre bestillingen."
+"Incorrect payment method.","Feil betalingsmetode."
 "We can't update shipping method.","Vi kan ikke oppdatere leveringsmetoden."
 "Transaction declined: ","Transaksjonen avslått: "
 "Incomplete payment information.","Ufullstendig betalingsinformasjon."
 "Please try again later","Vennligst prøv igjen senere"
+"Voided capture.","Ugyldiggjort reservasjon."
 Invoice,Faktura
 Shipment,Forsendelse
 "some error","en feil har oppstått"
 exception,unntak
 "Payment Information",Betalingsinformasjon
 or,eller
+"Cardholder Name","Navn på kortholder"
 "* Required Fields","* Nødvendige felt"
+"Make Default","Sett som standard"
 "Billing Address",Faktureringsadresse
 Company,Bedrift
 Address,Adresse
 State/Province,Stat/provins
+"Please select region, state or province","Vennligst velg region, fylke eller sted"
 "Zip/Postal Code",Postnummer
+"Add Credit Card","Legg til kredittkort"
 "Card Number",Kortnummer
 "Is Default","Er standard"
+"Pay with PayPal","Betal med PayPal"
 "Also affects mini-shopping cart.","Påvirker også mini handlekurv."
 "Paypal account",PayPal-konto
 "Coinbase account","Coinbase konto"
@@ -1026,7 +1120,6 @@ Fixed,Fast
 "Add Products to Option","Legge til produkter i alternativet"
 "Delete Option","Slett alternativet"
 "What are you looking for?","Hva leter du etter?"
-"Use Default Value","Bruk standardverdi"
 "There is no defined renderer for ""%1"" option type.","Det er ingen definert renderer for alternativtypen ""%1""."
 "Could not save child: ""%1""","Kunne ikke lagre barn: ""%1"""
 "Price Range",Prisområde
@@ -1124,7 +1217,6 @@ to,til
 [WEBSITE],[NETTSTED]
 "[STORE VIEW]",[LAGERVISNING]
 "Add Product","Legg til produkt"
-label,etikett
 "Product Attributes",Produkt-attributter
 "Add New Attribute","Legge til nytt attributt"
 "Save Attribute","Lagre attributt"
@@ -1429,7 +1521,6 @@ message,melding
 "Customer Group",Kundegruppe
 "Special Price From","Spesialpris fra"
 "Product Alerts",Produktmeldinger
-"Add Selected","Legg til valgte"
 "Select Attribute","Velg attributt"
 "Create New Attribute","Opprette ny attributt"
 "Customizable Options","Egendefinerbare alternativer"
@@ -1547,7 +1638,6 @@ Prev,Forrige
 "View as","Vise som"
 "More Information","Mer informasjon"
 "Maximum %1 characters","Maksimalt %1 tegn"
-"Warning message","Advarsel melding"
 "Configure Product","Konfigurere produkt"
 "This value does not follow the specified format (for example, 200X300).","Denne verdien følger ikke angitt format (for eksempel 200 x 300)."
 "Select type of option.","Velg type av alternativ."
@@ -2103,7 +2193,6 @@ View,Visning
 "Contents of a Static Block","Innholdet i en statisk blokk"
 Block,Blokk
 "Select Block...","Velg blokk..."
-"General Information","Generell Informasjon"
 "Enable Block","Aktiver blokk"
 "Block Title","Blokk tittel"
 "Enable Page","Aktiver siden"
@@ -2361,7 +2450,6 @@ Add,"Legg til"
 "Selected allowed currency ""%1"" is not available in installed currencies.","Valgte tillatt valuta ""%1"" er ikke tilgjengelig i installerte valutaer."
 "Default display currency ""%1"" is not available in allowed currencies.","Standard visning valuta""%1"" er ikke tilgjengelig i tillatte valutaer."
 "Sorry, we haven't installed the base currency you selected.","Beklager, men vi har ikke installert grunnvalutaen du har valgt."
-"We can't save the Cron expression.","Cron-regelen kan ikke lagres."
 "Sorry, we haven't installed the default display currency you selected.","Beklager, men vi har ikke installert standardvalutaen du har valgt."
 "Sorry, the default display currency you selected is not available in allowed currencies.","Beklager, standard visning av valuta du valgte er ikke tilgjengelig i tillatte valutaer."
 "The sender name ""%1"" is not valid. Please use only visible characters and spaces.","Avsendernavnet ""%1"" er ikke gyldig. Bruk bare synlige tegn og mellomrom."
@@ -3314,7 +3402,6 @@ items,elementer
 "The item was deleted","Elementet ble slettet"
 "All Users","Alle brukere"
 "Admin Actions Log","Admin handlingslogg"
-Report,Rapport
 "%1 & applied","%1 & brukt"
 "Attributes Updated","Attributter oppdatert"
 "Currency Rates Saved","Valutakurser lagret"
@@ -4678,7 +4765,6 @@ testMessage,testMelding
 "Report All Bugs","Rapporter alle feil"
 "JavaScript seems to be disabled in your browser.","JavaScript kan være deaktivert i din nettleseren."
 "%1 Item(s)","%1 Produkt(er)"
-Page,Side
 "We don't recognize this file extension.","Vi gjenkjenner ikke denne filtypen."
 "1 column","1 kolonne"
 "Default welcome msg!","Standard velkommen msg!"
@@ -4725,7 +4811,6 @@ Translations,Oversettelser
 "New %1","Nye %1"
 "Unsupported bookmark action.","Ustøttet bokmerkehandling."
 Filters,Filtre
-Selected,Valgt
 "Select All on This Page","Velg alle på denne siden"
 "Deselect All on This Page","Opphevmerking av alle på denne siden"
 On,På
