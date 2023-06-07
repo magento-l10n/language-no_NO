@@ -1,26 +1,22 @@
 All,Alle
 None,Ingen
 "Allowed Scopes","Tillatte områder"
-"More permissions are needed to delete the ""%1"" item.","Flere tillatelser er nødvendig for å slette elementet ""%1""."
 "You need more permissions to apply some of the rule updates.","Du trenger flere tillatelser for å utføre noen av regeloppdateringene."
-"More permissions are needed to view this item.","Flere tillatelser nødvendig for å vise dette elementet."
+"You need more permissions to access website ""%1"".","Du trenger flere tillatelser for å få tilgang til nettside ""%1""."
+"Role Scopes",Rolleområder
+Custom,Egendefinert
+"More permissions are needed to delete the ""%1"" item.","Flere tillatelser er nødvendig for å slette elementet ""%1""."
 "This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Denne entiteten må tilordnes en butikkvisning. Verifiser entitetens tilordning og prøv på nytt."
-"This item needs to be assigned to a store view.
-                Please select a website for this product in ""Product in Websites"".","Dette elementet må være tilordnet en butikkvisning.
-                Velg en nettside for dette produktet i ""Produkt i nettsteder""."
 "Orders can only be completed in an active store. Verify the store and try again.","Bestillinger kan kun fullføres i en aktiv butikk. Bekreft butikken å prøv igjen."
 "This item needs to be assigned to a store view. Assign item and try again.","Dette elementet må tilordnes til en butikk. Tilordne varen og prøv på nytt."
 "More permissions are needed to save this item.","Flere tillatelser nødvendig for å lagre dette elementet."
 "More permissions are needed to delete this item.","Flere tillatelser er nødvendig for å slette dette elementet."
-"Not allowed to edit the category's design attributes","Ikke tillatt å endre kategoriens designattributter"
+"More permissions are needed to view this item.","Flere tillatelser nødvendig for å vise dette elementet."
 "At least one website or store group needs to be selected. Select and try again.","Minst en nettside eller butikkgruppe må velges. Velg og prøv igjen."
 "More permissions are needed to set All Scopes to a Role.","Flere tillatelser nødvendig for å sette alle omfanger til en rolle."
 "The ""%1"" website ID is incorrect. Verify the website ID and try again.","ID til ""%1""-nettsted er feil. Kontroller nettsted ID og prøv igjen."
-"You need more permissions to access website ""%1"".","Du trenger flere tillatelser for å få tilgang til nettside ""%1""."
 "The ""%1"" store ID is incorrect. Verify the store ID and try again.","Id til ""%1""-butikken er feil. Kontroller nettsted Id og prøv igjen."
 "More permissions are needed to save this setting.","Flere tillatelser er nødvendig for å lagre denne innstillingen."
-"Role Scopes",Rolleområder
-Custom,Egendefinert
 "Read Details","Les detaljer"
 "Mark as Read","Marker som lest"
 "Are you sure?","Er du sikker?"
@@ -38,7 +34,6 @@ Notifications,Varslinger
 "Total of %1 record(s) have been removed.","Totalt av %1 oppføring(er) er fjernet."
 "We couldn't remove the messages because of an error.","Vi kunne ikke fjerne meldinger på grunn av en feil."
 "The message has been removed.","Meldingen ble fjernet."
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Du har sett og løst alle siste systemet varsler. Oppdater web-siden for å fjerne varselet."
 "1 Hour","1 time"
 "2 Hours","2 timer"
 "6 Hours","6 timer"
@@ -63,7 +58,6 @@ notice,varsel
 Close,Lukk
 "See All (","Se alle ("
 " unread)"," uleste)"
-"System Messages",Systemmeldinger
 "Show Toolbar","Vis verktøylinje"
 "Show List","Vis liste"
 "Use HTTPS to Get Feed","Bruk HTTPS for å få tjener"
@@ -73,6 +67,7 @@ Severity,Alvorlighetsgrad
 "Date Added","Dato lagt til"
 Message,Beskjed
 Actions,Handlinger
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Du har sett og løst alle siste systemet varsler. Oppdater web-siden for å fjerne varselet."
 "Manage Shopping Cart","Administrere handlekurv"
 "Create Order","Opprette ordre"
 Back,Tilbake
@@ -108,18 +103,10 @@ Configure,Konfigurer
 "You must buy at least %1 of these per purchase.","Du må kjøpe minst %1 av disse per innkjøp."
 "Specify the product's options.","Angi alternativ for produktet."
 "Alert me when this item is available.","Varsle meg når dette produkt er tilgjengelig."
-"This customer couldn't be found. Verify the customer and try again.","Denne kunden ble ikke funnet. Kontroller kunden og prøv igjen."
 "Shopping cart management is disabled for this customer.","Administrasjon av handlekurv er deaktivert for denne kunden."
-"This store couldn't be found. Verify the store and try again.","Denne butikken ble ikke funnet. Kontroller butikken, og prøv på nytt."
 Customers,Kunder
 "Shopping Cart",Handlekurv
-"An error occurred. For details, see the error log.","En feil har oppstått. For detaljer, se feil-loggen."
 "You do not have access to this.","Du har ikke tilgang til dette."
-"The ordered item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn elementet, og prøv på nytt."
-"The quote item ID needs to be received. Set the ID and try again.","ID'en for tilbudselementet må mottas. Angi ID'en og prøv igjen."
-"The quote item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn varen, og prøv på nytt."
-"The wish list item ID needs to be received. Set the ID and try again.","Vare-ID'en på ønskelisten må mottas. Angi ID'en og prøv igjen."
-"The wish list item needs to be loaded. Load the item and try again.","Varen på ønskelisten må lastes. Last inn elementet, og prøv på nytt."
 "An error has occurred. See error log for details.","Det har oppstått en feil. Se i feilloggen for mer informasjon."
 "You cannot configure a product.","Du kan ikke konfigurere et produkt."
 "You removed the items.","Du fjernet elementene."
@@ -150,7 +137,6 @@ Customers,Kunder
 "Yes, for Specified Customer Groups","Ja, for angitte kundegrupper"
 "Yes, for Everyone","Ja, for alle"
 No,Nei
-"The file is corrupt and can't be used.","Filen er skadet og kan ikke brukes."
 "Please upload the file in .csv format.","Vennligst opplast filen i .csv format."
 "%1 item(s) need your attention.","%1 element(er) krever din oppmerksomhet."
 "Apply Coupon Code","Bruk kupongkode"
@@ -204,6 +190,15 @@ File,Fil
 "The text of the link to the My Account &gt; Order by SKU page","Teksten i koblingen til min konto &gt; rekkefølge etter produktnummer siden"
 "Load a list of SKUs","Last liste over produktnummer"
 "Order by SKU Template","Bestill ved produktmal"
+"This customer couldn't be found. Verify the customer and try again.","Denne kunden ble ikke funnet. Kontroller kunden og prøv igjen."
+"This store couldn't be found. Verify the store and try again.","Denne butikken ble ikke funnet. Kontroller butikken, og prøv på nytt."
+"An error occurred. For details, see the error log.","En feil har oppstått. For detaljer, se feil-loggen."
+"The ordered item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn elementet, og prøv på nytt."
+"The quote item ID needs to be received. Set the ID and try again.","ID'en for tilbudselementet må mottas. Angi ID'en og prøv igjen."
+"The quote item needs to be loaded. Load the item and try again.","Den bestilte varen må lastes. Last inn varen, og prøv på nytt."
+"The wish list item ID needs to be received. Set the ID and try again.","Vare-ID'en på ønskelisten må mottas. Angi ID'en og prøv igjen."
+"The wish list item needs to be loaded. Load the item and try again.","Varen på ønskelisten må lastes. Last inn elementet, og prøv på nytt."
+"The file is corrupt and can't be used.","Filen er skadet og kan ikke brukes."
 "Please correct the data sent.","Korriger dataene som sendes."
 "Entity type model '%1' is not found","Finner ikke enhetsmodellen '%1'"
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Enhetstypemodellen må være en forekomst av \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType"
@@ -238,23 +233,14 @@ Yes,Ja
 "Error while checking if topic is synchronous","Feil under kontroll av om emnet er synkront"
 "Subscription status",Påmeldingsstatus
 "Sorry, there has been an error processing your request. Please try again later.","Beklager, det oppstod en feil under behandling av forespørselen. Prøv igjen senere."
-"The time value is using an unsupported format. Enter a supported format and try again.","Tidsverdien bruker et format som ikke støttes. Angi et format som støttes, og prøv på nytt."
 "Cron settings can't be saved","Cron alternativer kan ikke lagres"
 "There was an error save new configuration value.","Det oppstod en feil under lagringen av ny konfigurasjonsverdi."
-"Please select an industry.","Vennligst velg en bransje."
 "--Please Select--","-Vennligst velg--"
-"Command ""%1"" was not found.","Handlingen ""%1"" ble ikke funnet."
-"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Utfylt data er ugyldig. Fyll inn som streng eller informasjon som kan bli konvertert til en streng."
-"The data is invalid. Enter the data as a string and try again.","Informasjonen er ugyldig. Vennligst definer som en streng og forsøk igjen."
-"The data is invalid. Use a valid cipher method and try again.","Informasjonen er ugyldig. Vennligst bruk en gyldig krypteringsmetode og forsøk igjen."
-"Enter the encryption key and try again.","Fyll ut krypteringsnøkkelen og forsøk igjen."
-"The ""%1"" source doesn't exist.","""%1"" eksisterer ikke."
 "These arguments can't be empty ""%1""","Disse argumentene kan ikke være tom ""%1"""
 "Cannot find predefined integration user!","Finner ikke den forhåndsdefinerte integreringsbrukeren!"
 "File is not ready yet.","Filen er ikke klar ennå."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Base URL er endret, og rapportene blir oppdatert. Avansert rapportering vil være tilgjengelig når endringen er behandlet. Prøv igjen senere."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Kan ikke synkronisere data til Magento Business Intelligence service. "
-"Retry Synchronization",Resynkronisering
 TestMessage,TestMelding
 "Apps and Games","Programmer og spill"
 "Athletic/Sporting Goods",Atletisk/sportsbutikk
@@ -265,13 +251,8 @@ TestMessage,TestMelding
 Configuration,Innstillinger
 "Business Intelligence",Forretningsinformasjon
 "BI Essentials","BI  Enkel"
-"This service provides a dynamic suite of reports with rich insights about your business.
-                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
-                ""Go to Advanced Reporting"" link. </br> For more information, see our <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">
-                terms and conditions</a>.","Denne tilbyderen leverer en dynamsik rapportpakke som gir deg et rikt innsyn om din bedrift. Du kan få tilgang til dine rapporter sikkert via et personlig kontrollpanel utenfor din nettbutikk ved å følge denne linken.  ""Vis avanserte rapporter"" </br> For mer informasjon se <a target=""_blank"" href=""https://magento.com/legal/terms/cloud-terms"">                 for betingelser og vilkår</a>."
 "Advanced Reporting Service","Avansert rapporteringstjeneste"
 "Time of day to send data","Tiden på dagen for å sende data"
-"Industry Data","Industri Data"
 Industry,Industri
 "In order to personalize your Advanced Reporting experience, please select your industry.","For å tilpasse opplevelsen avansert rapportering, velg din bransje."
 "<strong>Get more insights from Magento Business Intelligence</strong>","<strong>Få mer innsikt fra Magento bedriftsinformasjon</strong>"
@@ -297,6 +278,14 @@ Industry,Industri
 "Pharma and Medical Devices","Farmasøytisk og medisinsk utstyr"
 "Technology B2B","Teknologi B2B"
 Other,Annet
+"The time value is using an unsupported format. Enter a supported format and try again.","Tidsverdien bruker et format som ikke støttes. Angi et format som støttes, og prøv på nytt."
+"Please select an industry.","Vennligst velg en bransje."
+"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Utfylt data er ugyldig. Fyll inn som streng eller informasjon som kan bli konvertert til en streng."
+"The data is invalid. Enter the data as a string and try again.","Informasjonen er ugyldig. Vennligst definer som en streng og forsøk igjen."
+"The data is invalid. Use a valid cipher method and try again.","Informasjonen er ugyldig. Vennligst bruk en gyldig krypteringsmetode og forsøk igjen."
+"Enter the encryption key and try again.","Fyll ut krypteringsnøkkelen og forsøk igjen."
+"The ""%1"" source doesn't exist.","""%1"" eksisterer ikke."
+"Retry Synchronization",Resynkronisering
 Done,Utført
 Retry,"Prøv på nytt"
 "'Action Details - #' .","'Handlingsdetaljer - #'."
@@ -336,8 +325,8 @@ Error,Feil
 "Dismiss All Completed Tasks","Forkaste alle fullførte oppgaver"
 "Action Details - #","Handlings-detaljer -#"
 "Number of Records Affected","Antall poster som påvirkes"
-"The role wasn't found for the user. Verify the role and try again.","Brukerens rolle ble ikke funnet. Kontroller rollen og prøv igjen."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Noe gikk galt ved kompileringen av en liste over tillatte ressurser. Du kan finne ut mer i unntaksloggen."
+"The role wasn't found for the user. Verify the role and try again.","Brukerens rolle ble ikke funnet. Kontroller rollen og prøv igjen."
 "You created the order.","Du opprettet ordren."
 "Order saving error: %1","Ordrelagringsfeil: %1"
 "Please choose a payment method.","Vennligst velg en betalingsmåte."
@@ -428,25 +417,10 @@ Environment,Miljø
 options,innstillinger
 "Select all","Velg alle"
 "Deselect all","Opphev merking"
-Selected,Valgt
-"We couldn't find any records.","Vi kunne ikke finne noen poster."
-" Item(s)"," Produkt(er)"
-"Items ","Produkter "
-" to "," til "
-" of "," av "
-Page,Side
-Previous,Forrige
-"You're currently reading page","Du leser for øyeblikket siden"
-Next,Neste
-Show,Vis
-"per page","per side"
 "%s of %s selected","%s av %s valgt"
-"Search by keyword","Søk etter nøkkelord"
-"This is a required field.","Dette er et obligatorisk felt."
 "B2B Features",B2B-funksjoner
 "Invalid Form Key. Please refresh the page.","Ugyldig skjemanøkkel. Vennligst oppdater siden."
 "You entered an invalid Secret Key. Please refresh the page.","Du oppga en ugyldig hemmelig nøkkel. Oppdater siden."
-"Invalid security or form key. Please refresh the page.","Ugyldig skjemanøkkel. Vennligst oppdater siden."
 "Cache Storage Management","Cache lagringsadministrasjon"
 "Flush Magento Cache","Tømme Magento Cache"
 "The cache storage may contain additional data. Are you sure that you want to flush it?","Mellomlageret kan inneholde ekstra data. Er du sikker på at du vil tømme det?"
@@ -549,7 +523,6 @@ Stores,Butikker
 "Create Store View","Opprett butikkvisning"
 Home,Hjem
 "Are you sure you want to do this?","Er du sikker på at du vil gjøre dette?"
-label,etikett
 "Add New Image","Legg til nytt bilde"
 "Export block for grid %1 is not defined","Eksport blokk for rutenett %1 er ikke definert"
 "Reset Filter","Tilbakestill filter"
@@ -567,13 +540,11 @@ To,Til
 "Invalid export type supplied for grid export block","Ugyldig eksporttype angitt for grid eksport blokk"
 Export,Eksport
 "Please correct the column format and try again.","Endre kolonneformatet og prøv på nytt."
-"An item needs to be selected. Select and try again.","Et alternativ må velges. Velg et alternativ og prøv igjen."
 Submit,Lagre
 "Unknown block type","Ukjent blokktype"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Vennligst korriger kategorikonfigurasjonen og prøv på nytt. Kategori Id kan ikke være tom"
 "Please correct the tab configuration and try again.","Korriger kategorikonfigurasjonen og prøv på nytt."
 "You have logged out.","Du har logget ut."
-"These cache type(s) don't exist: %1","Disse cache typene finnes ikke: %1"
 "The image cache was cleaned.","Hurtigbufferen for bilder ble tømt."
 "An error occurred while clearing the image cache.","Det oppstod en feil under tømming av hurtigbuffer for bilder."
 "The JavaScript/CSS cache has been cleaned.","Hurtigbufferen for JavaScript/CSS har blitt tømt."
@@ -628,31 +599,20 @@ Dashboard,Kontrollpanel
 "Before modifying the store view code please make sure it is not used in index.php.","Før du endrer nettstedkoden må du kontrollere at den ikke brukes i index.php."
 "New ","Ny "
 "All Stores","Alle butikker"
-"Please enable your Store View before using this Web Site as Default","Vennligst aktiver din butikkvisning før du bruker dette nettstedet som standard"
 "You saved the website.","Du lagret webområdet."
 "The default store cannot be disabled","Standardbutikken kan ikke bli deaktivert"
 "You saved the store view.","Du lagret butikkvisningen."
 "An inactive store view cannot be saved as default store view","En inaktiv butikk-visning kan bli lagret som standard butikk visning"
 "You saved the store.","Du lagret butikken."
 "Something went wrong while saving. Please review the error log.","Noe gikk galt under lagring. Kontroller feilloggen."
-"Authentication storage is incorrect.","Autentiseringslagring er feil."
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Kontoinnlogging var feil, eller kontoen din er midlertidig deaktivert. Vent og prøv på nytt senere."
-"An authentication error occurred. Verify and try again.","En autentiseringsfeil oppstod. Kontroller og prøv igjen."
-"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Admin-øktens levetid er ugyldig. Angi levetiden til 31536000 sekunder (ett år) eller kortere, og prøv på nytt."
-"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Admin-øktens levetid er ugyldig. Angi levetiden til 60 sekunder eller lenger, og prøv på nytt."
-Today,"I dag"
 "Last 24 Hours","Siste 24 timer"
 "Last 7 Days","Siste 7 dager"
 "Current Month","Gjeldende måned"
 YTD,"Hittil i år"
 2YTD,"2 ÅTD"
+"Authentication storage is incorrect.","Autentiseringslagring er feil."
 Order,Rekkefølge
 "Order #%1","Ordre # %1"
-"URL key ""%1"" matches a reserved endpoint name (%2). Use another URL key.","URL nøkkel ""%1"" samsvarer med ett reservert endepunktnavn (%2). Bruk en annen URL-nøkkel."
-"Save &amp; Continue","Lagre &amp; fortsett"
-"Save &amp; Close","Lagre &amp; lukk"
-"Save &amp; New","Lagre &amp; Ny"
-Edit,Rediger
 "Sorry, you need permissions to view this content.","Beklager, trenger du tillatelse til å vise dette innholdet."
 "Next steps","De neste trinnene"
 "If you think this is an error, try signing out and signing in again.","Hvis du tror dette er en feil, prøve å logge ut og logge på igjen."
@@ -665,9 +625,9 @@ Username,Brukernavn
 Password,Passord
 password,passord
 "Sign in","Logg inn"
+"Select Range:","Merk område:"
 "No Data Found","Ingen Data funnet"
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Diagrammet er deaktivert. For å aktivere diagrammet, klikk <a href=""%1""> her</a>."
-"Select Range:","Merk område:"
 "Last Orders","Siste ordre"
 "Last Search Terms","Siste søkeord"
 "Top Search Terms","Hyppigste søkeord"
@@ -683,15 +643,15 @@ password,passord
 "Sign Out","Logg ut"
 "About the calendar","Om kalenderen"
 "Go Today","I Dag"
+Previous,Forrige
+Next,Neste
 Time,Tid
 Hour,Time
 Minute,Minutt
 "JavaScript may be disabled in your browser.","JavaScript kan være deaktivert i nettleseren."
 "To use this website you must first enable JavaScript in your browser.","For å bruke nettstedet må du først aktivere JavaScript i nettleseren."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Dette er bare en demo butikk. Du kan bla gjennom og plassere bestillinger, men ingenting vil bli behandlet."
-"Privacy Policy",Personvernserklæring
 "Report an Issue","Rapporter en feil"
-Scope:,Omfang:
 "Stores Configuration","Butikk konfigurasjon"
 "Additional Cache Management","Ekstra Cache Konfigurasjon"
 "Flush Catalog Images Cache","Flush katalogen bilder Cache"
@@ -708,6 +668,7 @@ Thumbnail,Miniatyrbilde
 "Additional Settings",Tilleggsinnstillinger
 "records found","oppføringer funnet"
 selected,valgt
+"per page","per side"
 "Previous page","Forrige side"
 "of %1","av %1"
 "Next page","Neste side"
@@ -720,12 +681,6 @@ selected,valgt
 "This tab contains invalid data. Please resolve this before saving.","Denne kategorien inneholder ugyldige data. Vennligst rett opp dette før du lagrer."
 "The information in this tab has been changed.","Informasjonen under denne fanen er endret."
 Loading...,Laster...
-"User Agent Rules","Bruker Agent regler"
-"User agent exceptions override product and CMS pages rules.","Brukeragent unntak overstyrer regler for produkt- og CMS-sider."
-Examples,Eksempler
-"Previous Page","Forrige side"
-"Next Page","Neste side"
-"Use Default Value","Bruk standardverdi"
 "We could not detect a size.","Vi kunne ikke oppdage en størrelse."
 "Warning message","Advarsel melding"
 "Allow everything","Tillat alt"
@@ -760,7 +715,6 @@ Advanced,Avansert
 "Sales Representative",Salgsrepresentant
 "Customer Support",Kundestøtte
 Developer,Utvikler
-"Parameter Value",Parameterverdi
 "Template Settings","Mal alternativer"
 "Allow Symlinks","Tillate Symlinks"
 "Minification is not applied in developer mode.","Minification brukes ikke i utviklermodus."
@@ -804,10 +758,8 @@ City,By
 "This setting will not be taken into account if system has more than one store view.","Dette alternativet vil ikke bli tatt med i vurderingen hvis systemet har mer enn en butikkvisning."
 "Mail Sending Settings","Epost sending alternativer"
 "Disable Email Communications","Deaktiver e-kommunikasjon"
-"For Windows server only.","Kun for Windows server."
 "Set Return-Path","Angi returadresse"
 "Return-Path Email","Retur-adresse Email"
-"Maximum Height","Maksimal høyde"
 "Admin User Emails","Admin bruker e-post"
 "Forgot Password Email Template","Glemt passord e-post mal"
 "Email template chosen based on theme fallback when ""Default"" option is selected.","E-postmal valgt basert på tema fallback når ""Default"" alternativet er valgt."
@@ -865,9 +817,9 @@ Description,Beskrivelse
 Tags,Merkelapper
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading"">404 feil</h1><p>Fant ikke siden.</p>"
 "Default Theme",Standardtema
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Hvis ingen verdi er angitt, brukes systemstandarden. Systemstandarden kan endres av tredjeparts utvidelser."
 "Applied Theme","Anvendt tema"
 "Design Rule","Design regel"
+"User Agent Rules","Bruker Agent regler"
 Pagination,Paginering
 "How many links to display at once.","Hvor mange linker som skal vises samtidig."
 "Pagination Frame","Paginerings Ramme"
@@ -878,6 +830,22 @@ Pagination,Paginering
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Alternativ tekst for de neste sidene lenkes i paginasjonsmenyen. Hvis tom, brukes standard pilbildet."
 "Anchor Text for Next","Anker test for neste"
 "Theme Name",Temanavn
+"For Windows server only.","Kun for Windows server."
+"Maximum Height","Maksimal høyde"
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Hvis ingen verdi er angitt, brukes systemstandarden. Systemstandarden kan endres av tredjeparts utvidelser."
+label,etikett
+"Invalid security or form key. Please refresh the page.","Ugyldig skjemanøkkel. Vennligst oppdater siden."
+"An item needs to be selected. Select and try again.","Et alternativ må velges. Velg et alternativ og prøv igjen."
+"These cache type(s) don't exist: %1","Disse cache typene finnes ikke: %1"
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Kontoinnlogging var feil, eller kontoen din er midlertidig deaktivert. Vent og prøv på nytt senere."
+"An authentication error occurred. Verify and try again.","En autentiseringsfeil oppstod. Kontroller og prøv igjen."
+"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Admin-øktens levetid er ugyldig. Angi levetiden til 31536000 sekunder (ett år) eller kortere, og prøv på nytt."
+"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Admin-øktens levetid er ugyldig. Angi levetiden til 60 sekunder eller lenger, og prøv på nytt."
+"Save &amp; Continue","Lagre &amp; fortsett"
+"Save &amp; Close","Lagre &amp; lukk"
+"Save &amp; New","Lagre &amp; Ny"
+Edit,Rediger
+"Parameter Value",Parameterverdi
 "System Backup",System-sikkerhetskopiering
 "Database and Media Backup","Database- og mediabackup"
 "Database Backup",Databasesikkerhetskopi
@@ -913,7 +881,6 @@ successful,vellykket
 "The backup file handler was unspecified.","Sikkerhetskopifilbanen ble ikke angitt."
 "Something went wrong while writing to the backup file ""%1"".","Noe gikk galt under skriving til sikkerhetskopifilen ""%1""."
 "We can't save the Cron expression.","Cron-regelen kan ikke lagres."
-"Backup functionality is disabled","Sikkerhetskopiering er deaktivert"
 "You will lose any data created since the backup was made, including admin users, customers and orders.","Du vil miste data opprettet etter siste backup ble gjort, inkludert administratorbrukere, kunder og bestillinger."
 "Are you sure you want to continue?","Er du sikker på at du vil fortsette?"
 "This may take a few moments.","Dette kan ta litt tid."
@@ -936,24 +903,19 @@ Exclude,Ekskluder
 "Magento root directory","Magento root mappe"
 "Create Backup","Opprett sikkerhetskopi"
 Rollback,"Rull tilbake"
-"Backup Settings","Innstillinger for sikkerhetskopiering"
-"Enable Backup","Aktiver sikkerhetskopiering"
 "Enable Scheduled Backup","Aktiver planlagt sikkerhetskopiering"
-"Scheduled Backup Type","Planlegg sikkerhetskopiering"
 Frequency,Frekvens
 "Maintenance Mode",Vedlikeholdsmodus
 "Are you sure you want to delete the selected backup(s)?","Er du sikker på at du vil slette valgt(e) sikkerhetskopi(er)?"
 Size(bytes),Størrelse(bytes)
 Download,"Last ned"
-"Dynamic Blocks","Dynamiske blokker"
-"Add Dynamic Block","Legg til dynamisk blokk"
-"Save Dynamic Block","Lagre dynamisk blokk"
-"Delete Dynamic Block","Slett dynamisk blokk"
+"Backup functionality is disabled","Sikkerhetskopiering er deaktivert"
+"Backup Settings","Innstillinger for sikkerhetskopiering"
+"Enable Backup","Aktiver sikkerhetskopiering"
+"Scheduled Backup Type","Planlegg sikkerhetskopiering"
 "Save and Continue Edit","Lagre og fortsett redigering"
-Reset,Tilbakestill
 "Default Content",Standardinnhold
 "No Default Content","Ingen standardinnhold"
-"Dynamic Block Default Content for All Store Views","Dynamisk blokk standard innhold for alle Butikk visninger"
 "Store View Specific Content","Butikkspesifikt innholdt"
 "Use Default","Bruk standard"
 "Related Promotions","Relaterte kampanjer"
@@ -961,32 +923,16 @@ ID,Id
 Rule,Regel
 "Start Date",Startdato
 "End Date",Sluttdato
-"Dynamic Block Properties","Dynamisk blokk egenskaper"
-"Dynamic Block Name","Dynamisk blokknavn"
 Active,Aktiv
 Inactive,Inaktiv
 "Applies To",Gjelder
-"Any Dynamic Block Type","Enhver dynamisk blokktype"
-"Specified Dynamic Block Types","Spesifisert dynamisk blokktype"
 "Specify Types","Angi typer"
-"Dynamic Block Information","Dynamisk blokk informasjon"
-"Dynamic Block","Dynamisk blokk"
-"Dynamic Block Type","Dynamisk blokktype"
-"Are you sure you want to delete these dynamic blocks?","Er du sikker på at du vil slette disse dynamiske blokkene?"
-"Related Dynamic Blocks","Relaterte dynamiske blokker"
+Visibility,Synlighet
 Position,Posisjon
 "This rule no longer exists.","Denne regelen finnes ikke lenger."
-"You deleted the dynamic block.","Du slettet den dynamisk blokken."
-"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Noe gikk galt under sletting av dynamisk blokkdata. Vennligst ta en titt i logg for mer informasjon og prøv igjen. "
-"We cannot find a dynamic block to delete.","Vi kan desverre ikke finne en dynamisk blokk å slette."
-"This dynamic block no longer exists.","Denne dynamiske blokken eksisterer ikke lengre."
-"Edit Dynamic Block","Endre dynamisk blokk"
-"Please select a dynamic block(s).","Vennligst velg dynamisk(e) blokk(er)."
 "You deleted %1 record(s).","Du slettet %1 oppføring(er)."
-"Invalid Request","Ugyldig forespørsel"
 "Please enter a name.","Skriv inn et navn."
 "-- None --","-- Ingen --"
-"Invalid content","Ugyldig innhold"
 "Content Area",Innholdsområde
 Footer,Bunntekst
 Header,Overskrift
@@ -997,10 +943,30 @@ Header,Overskrift
 "One at the time, Random","En av gangen i tilfeldig rekkefølge"
 "One at the time, Series","En av gangen i sekvens"
 "One at the time, Shuffle","En av gangen i tilfeldig rekkefølge"
+"Dynamic Blocks","Dynamiske blokker"
+"Add Dynamic Block","Legg til dynamisk blokk"
+"Save Dynamic Block","Lagre dynamisk blokk"
+"Delete Dynamic Block","Slett dynamisk blokk"
+Reset,Tilbakestill
+"Dynamic Block Default Content for All Store Views","Dynamisk blokk standard innhold for alle Butikk visninger"
+"Dynamic Block Properties","Dynamisk blokk egenskaper"
+"Dynamic Block Name","Dynamisk blokknavn"
+"Any Dynamic Block Type","Enhver dynamisk blokktype"
+"Specified Dynamic Block Types","Spesifisert dynamisk blokktype"
+"Dynamic Block Information","Dynamisk blokk informasjon"
+"Dynamic Block","Dynamisk blokk"
+"Dynamic Block Type","Dynamisk blokktype"
+"Are you sure you want to delete these dynamic blocks?","Er du sikker på at du vil slette disse dynamiske blokkene?"
+"Related Dynamic Blocks","Relaterte dynamiske blokker"
+"You deleted the dynamic block.","Du slettet den dynamisk blokken."
+"Something went wrong while deleting dynamic block data. Please review the action log and try again.","Noe gikk galt under sletting av dynamisk blokkdata. Vennligst ta en titt i logg for mer informasjon og prøv igjen. "
+"We cannot find a dynamic block to delete.","Vi kan desverre ikke finne en dynamisk blokk å slette."
+"This dynamic block no longer exists.","Denne dynamiske blokken eksisterer ikke lengre."
+"Edit Dynamic Block","Endre dynamisk blokk"
+"Please select a dynamic block(s).","Vennligst velg dynamisk(e) blokk(er)."
 "Status Label","Status etikett"
 "General Information","Generell Informasjon"
 "Add Selected","Legg til valgte"
-Visibility,Synlighet
 "All Segments","Alle segmenter"
 "Customer Segment",Kundesegment
 "Allowed Credit Card Types","Tillatte kredittkorttyper"
@@ -1178,6 +1144,7 @@ Fixed,Fast
 "Add Products to Option","Legge til produkter i alternativet"
 "Delete Option","Slett alternativet"
 "What are you looking for?","Hva leter du etter?"
+"Use Default Value","Bruk standardverdi"
 "There is no defined renderer for ""%1"" option type.","Det er ingen definert renderer for alternativtypen ""%1""."
 "Could not save child: ""%1""","Kunne ikke lagre barn: ""%1"""
 "Price Range",Prisområde
@@ -1215,8 +1182,8 @@ Invoiced,Fakturert
 Shipped,Sendt
 Refunded,Refundert
 Canceled,Avbrutt
-"Regular Price","Vanlig pris"
 "As low as","Så lav som"
+"Regular Price","Vanlig pris"
 "Buy %1 with %2 discount each","Kjøp %1 med %2 rabatt hver"
 "Go back to product details","Tilbake til Produktdetaljer"
 "Customize and Add to Cart","Tilpasse og legg til handlekurv"
@@ -1270,8 +1237,6 @@ Root,Rot
 "Add Subcategory","Legg til underkategori"
 "Add Root Category","Legg til rotkategori"
 Day,Dag
-from,fra
-to,til
 [WEBSITE],[NETTSTED]
 "[STORE VIEW]",[LAGERVISNING]
 "Add Product","Legg til produkt"
@@ -1332,9 +1297,9 @@ Empty,Tom
 "Add Attribute","Legge til attributt"
 "Add New Group","Legge til ny gruppe"
 "Add Group","Legg til gruppe"
+"Edit Attribute Set Name","Rediger attributtsettnavn"
 "For internal use","For intern bruk"
 "Based On","Basert på"
-"Edit Attribute Set Name","Rediger attributtsettnavn"
 "Add New Attribute Set","Legg til ny attributtssett"
 "Add Attribute Set","Legg til attributtsett"
 "Attribute Sets",Attributtsett
@@ -1403,12 +1368,11 @@ Categories,Kategorier
 "Category is not available for requested store.","Kategorien er ikke tilgjengelig for forespurt butikk."
 "There was a category move error.","Det oppstod en kategori flyttefeil."
 "You moved the category.","Du flyttet kategorien."
-"Something went wrong while saving the category.","Noe gikk galt under lagring av kategorien."
 "You saved the category.","Du lagret kategorien."
+"Something went wrong while saving the category.","Noe gikk galt under lagring av kategorien."
 "Please select products for attributes update.","Velg produkter for attributtoppdateringen."
 "Please make sure to define SKU values for all processed products.","Kontroller at det er definert SKU verdier for alle bearbeidede produkter."
 "Something went wrong while updating the product(s) attributes.","Noe gikk galt ved oppdatering av produkt(er) attributtene."
-"Something went wrong while processing the request.","Noe gikk galt under arbeidet av denne forespørselenen."
 "Unable to add attribute","Kan ikke legge til attributtet"
 "Manage Product Attributes","Administrere produkt-attributter"
 "We can't delete the attribute.","Vi kan ikke slette attributtet."
@@ -1421,6 +1385,7 @@ Categories,Kategorier
 "You saved the product attribute.","Du lagret attributtet produktet."
 "An attribute with this code already exists.","Det finnes allerede et attributt med denne koden."
 "An attribute with the same code (%1) already exists.","Det finnes allerede et attributt med den samme koden (%1)."
+"The value of Admin must be unique.","Verdien av Admin må være unik."
 "The value of Admin scope can't be empty.","Verdien av Admin området kan ikke være tomt."
 "You duplicated the product.","Du dupliserte produktet."
 "This product doesn't exist.","Dette produktet finnes ikke."
@@ -1538,6 +1503,9 @@ Category,Kategori
 "Invalid attribute Cost = %cost. Row ID: SKU = %SKU, Store ID: %storeId.","Ugyldig attributt pris = %cost. Rad-ID: SKU = %SKU, Store ID: %storeId."
 "Could not save Prices.","Kan ikke lagre priser."
 "Could not delete Prices","Kan ikke slette priser"
+"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Finner ikke forespurt butikk. Rad-ID: SKU = %SKU, Store ID: %storeId, pris fra: %priceFrom, pris til: %priceTo."
+"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ugyldig attributt %label = %priceTo. Rad ID: SKU = %SKU, Butikk ID: %storeId, Pris Fra: %priceFrom, Pris Til: %priceTo."
+"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ugyldig attributt Pris = %price. Rad ID: SKU = %SKU, Butikk ID: %storeId, Pris Fra: %priceFrom, Pris Til: %priceTo."
 "Could not save Tier Prices","Kan ikke lagre nivå priser"
 "Could not replace Tier Prices","Kan ikke erstatte nivå priser"
 "Could not delete Tier Prices","Kan ikke slette Tier priser"
@@ -1548,6 +1516,7 @@ Category,Kategori
 "Invalid attribute Website ID = %websiteId. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ugyldig attributt nettsted-ID = % websiteId. Rad-ID: SKU = %SKU, nettside-ID: % websiteId, kundegruppe: %customerGroup, mengde: %qty."
 "We found a duplicate website, tier price, customer group and quantity: Customer Group = %customerGroup, Website ID = %websiteId, Quantity = %qty. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Vi fant et duplisert nettsted, nivå pris, kundegruppe og antall: kundegruppen = %customerGroup, nettsted-ID = % websiteId, antall = %qty. Rad-ID: SKU = %SKU, nettside-ID: % websiteId, kundegruppe: %customerGroup, mengde: %qty."
 "No such entity with Customer Group = %customerGroup. Row ID: SKU = %SKU, Website ID: %websiteId, Customer Group: %customerGroup, Quantity: %qty.","Ingen enhet med Kundegruppe = %customerGroup. Rad ID: SKU = %SKU, Nettside ID: %websiteId, Kundegruppe: %customerGroup, Kvantitet: %qty."
+"Something went wrong while processing the request.","Noe gikk galt under arbeidet av denne forespørselenen."
 "Not Visible Individually","Ikke sett individuelt"
 "Catalog, Search","Katalog, søk"
 "Something went wrong while removing products from the websites.","Noe gikk galt under fjerning av produkter fra nettsiden."
@@ -1568,12 +1537,7 @@ Category,Kategori
 Dropdown,Rullgardinmeny
 "Could not get extension attributes","Kan ikke hente tilleggsattributter"
 message,melding
-"Invalid attribute Price = %price. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ugyldig attributt Pris = %price. Rad ID: SKU = %SKU, Butikk ID: %storeId, Pris Fra: %priceFrom, Pris Til: %priceTo."
-"Requested store is not found. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Finner ikke forespurt butikk. Rad-ID: SKU = %SKU, Store ID: %storeId, pris fra: %priceFrom, pris til: %priceTo."
-"Invalid attribute %label = %priceTo. Row ID: SKU = %SKU, Store ID: %storeId, Price From: %priceFrom, Price To: %priceTo.","Ugyldig attributt %label = %priceTo. Rad ID: SKU = %SKU, Butikk ID: %storeId, Pris Fra: %priceFrom, Pris Til: %priceTo."
 "Lock wait timeout","Tidsavbrudd for Lås"
-"Product Name or SKU","Produktnavn eller SKU"
-"Start typing to find products","Begynn å skrive for å finne produkter"
 "Advanced Pricing","Avansert prising"
 "Customer Group Price","Kundegruppe pris"
 "Customer Group",Kundegruppe
@@ -1608,12 +1572,11 @@ name,navn
 "Manage Titles (Size, Color, etc.)","Administrere titler (størrelse, farge, osv.)"
 "Manage Options (Values of Your Attribute)","Behandle alternativer (verdier for attributtet)"
 "Sort Option",Sorteringsalternativer
-"The value of Admin must be unique.","Verdien av Admin må være unik."
 Groups,Grupper
 "Double click on a group to rename it.","Dobbeltklikk på en gruppe endre navnet."
 "Unassigned Attributes","Ikke tilordnede attributter"
-"This group contains system attributes. Please move system attributes to another group and try again.","Denne gruppen inneholder systemattributter. Vennligst flytte systemattributter til en annen gruppe og prøv på nytt."
 "A name is required.","Det kreves et navn."
+"This group contains system attributes. Please move system attributes to another group and try again.","Denne gruppen inneholder systemattributter. Vennligst flytte systemattributter til en annen gruppe og prøv på nytt."
 "Please select a node.","Velg en node."
 "Please enter a new group name.","Skriv inn et nytt gruppenavn."
 "An attribute group named ""/name/"" already exists.","Et attributtgruppe kalt ""navn /"" allerede finnes."
@@ -1690,22 +1653,19 @@ Prev,Forrige
 "Items %1-%2 of %3","Elementer %1-%2 av %3"
 "%1 Item","%1 Produkt"
 "%1 Items","%1 Produkter"
+Show,Vis
 "Sort By","Sorter etter"
 "Set Ascending Direction","Angi stigende retning"
 "Set Descending Direction","Angi synkende retning"
 "View as","Vise som"
 "More Information","Mer informasjon"
-"Maximum %1 characters","Maksimalt %1 tegn"
 "Configure Product","Konfigurere produkt"
-"This value does not follow the specified format (for example, 200X300).","Denne verdien følger ikke angitt format (for eksempel 200 x 300)."
 "Select type of option.","Velg type av alternativ."
 "Please add rows to option.","Vennligst legg rader til alternativ."
 "Choose existing category.","Velg eksisterende kategori."
 "Image Detail",Bildedetaljer
 Adding...,"Legger til..."
 Added,"Lagt til"
-remaining,gjenstår
-"too many","for mange"
 "does not implement Storage Interface","implementerer ikke lagergrensesnitt"
 "unselect all","opphev merking"
 Inventory,Lager
@@ -1748,7 +1708,6 @@ Comma-separated.,Kommadelt.
 "Time Format",Tidsformat
 "Year Range","År rekkefølge"
 "Please use a four-digit year format.","Bruk en firesifret årsformat."
-"Use Static URLs for Media Content in WYSIWYG","Bruke statiske nettadresser for medieinnhold i WYSIWYG"
 "Top Level Category","Topnivå kategori"
 "Product Info Column",Produktinfokolonne
 "Block after Info Column","Blokk etter info kolonne"
@@ -1855,6 +1814,15 @@ Overview,Oversikt
 "Add To Compare","Legg til sammenligning"
 "Learn more","Lær mer"
 "Recently Viewed","Nylig vist"
+from,fra
+to,til
+"Maximum %1 characters","Maksimalt %1 tegn"
+remaining,gjenstår
+"too many","for mange"
+"This value does not follow the specified format (for example, 200X300).","Denne verdien følger ikke angitt format (for eksempel 200 x 300)."
+"Product Name or SKU","Produktnavn eller SKU"
+"Start typing to find products","Begynn å skrive for å finne produkter"
+"Use Static URLs for Media Content in WYSIWYG","Bruke statiske nettadresser for medieinnhold i WYSIWYG"
 "Edit Event","Rediger hendelsen"
 "Add Event","Legg til hendelse"
 Events,Hendelser
@@ -1876,13 +1844,13 @@ Closed,Lukket
 "This product is no longer on sale.","Dette produktet er ikke lenger til salgs."
 "Some of these products can no longer be sold.","Noen av disse produktene kan ikke lenger bli solgt."
 "Select Category","Velg en kategori"
+Days,Dager
 Hrs,Timer
 Mins,Minutter
 Sec,Sek
 "Preview Sale","Forhåndsvis salg"
 "Go To Sale","Gå til salg"
 "View Sale","Vis salg"
-Days,Dager
 "Catalog Events",Kataloghendelser
 "Enable Catalog Events Functionality","Aktivere katalogen hendelser funksjonalitet"
 "Enable Catalog Event Widget on Storefront","Aktiver katalogen hendelse Widget på butikk"
@@ -1931,8 +1899,8 @@ End,Slutt
 "No Backorders","Ingen restordrer"
 "Allow Qty Below 0","Tillate antall under 0"
 "Allow Qty Below 0 and Notify Customer","Tillate antall under 0 og gi kunde beskjed"
-"Please correct the quantity for some products.","Korriger antallet for noen produkter."
 "The fewest you may purchase is %1.","Det minste du kan kjøpe er %1."
+"Please correct the quantity for some products.","Korriger antallet for noen produkter."
 "Stock Status",Lagerstatus
 "Product availability","Produkt tilgjengelighet"
 "Stock Options","Lager alternativer"
@@ -2030,17 +1998,15 @@ Path,Sti
 "Create Permanent Redirect for URLs if URL Key Changed","Opprette permanent omadressering for URL'er hvis URL-nøkkel forandres"
 "Please choose a condition to add.","Velg en betingelse å legge til."
 "List of Products","Liste over produkter"
+"Invalid method: %1","Ugyldig metode: %1"
 State/Province,Fylke/kommune
 "My Cart (1 item)","Min handlevogn (1 vare)"
 "My Cart (%1 items)","Min handlevogn (%1 varer)"
 "My Cart","Min handlekurv"
-"%1: Line %2","%1: Linje %2"
 "For delivery questions.","For leveringsspørsmål."
 "Customer is already registered","Kunden er allerede registrert"
 "Your session has expired","Økten har utløpt"
 "A letter with further instructions will be sent to your email.","Et melding med videre instruksjoner blir sendt til din epost."
-"Please select at least one product to add to cart","Vær snill å velg minst ett produkt å legge til handlekurven"
-"The quote item isn't found. Verify the item and try again.","Etterspurt vare ble ikke funnet. Verifiser varen og prøv igjen."
 "We cannot configure the product.","Vi kan ikke konfigurere produktet."
 "You used coupon code ""%1"".","Du brukte kupongkode ""%1""."
 "You canceled the coupon code.","Du slettet rabattkoden."
@@ -2048,22 +2014,15 @@ State/Province,Fylke/kommune
 "We can't remove the item.","Vi kan ikke fjerne produktet."
 "%1 was updated in your shopping cart.","%1 ble oppdatert i handlekurven."
 "We can't update the item right now.","Vi kan ikke oppdatere varen akkurat nå."
-"Page Not Found","Side ikke funnet"
-"Something went wrong while saving the page. Please refresh the page and try again.","Noe gikk galt under under lagring av side. Forsøk å laste inn siden pånytt og prøv ny lagring."
 "We can't update the shopping cart.","Vi kan ikke oppdatere handlekurven."
 "One-page checkout is turned off.","Enside checkout er deaktivert."
 "Guest checkout is disabled.","Gjeste checkout er deaktivert."
 Checkout,Kasse
 "Page not found.","Siden finnes ikke."
-"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Bestillingen ble ikke plassert. Først, si deg enig i vilkårene, forsøk deretter å gjennomføre ordren igjen."
 "Something went wrong while processing your order. Please try again later.","Noe gikk galt under behandling av bestillingen. Prøv igjen senere."
-"An unspecified error occurred. Please contact us for assistance.","Det oppstod en uspesifisert feil. Kontakt oss for hjelp."
 "%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 forlenger ikke \Magento\Checkout\CustomerData\ItemInterface"
 "Payment Method",Betalingsmåte
 "Payment Page",Betalingssiden
-"Could not store billing/shipping information at the moment but you can proceed with the checkout","Kunne ikke lagre regning/fraktinformasjon for øyeblikket, men du kan fortsette med kassen"
-"Please provide CAPTCHA code and try again","Vennligst oppgi CAPTCHA-kode og prøv igjen"
-"The product wasn't found. Verify the product and try again.","Produktet ble ikke funnet. Verifiser produktet og prøv igjen."
 "We found an invalid request for adding product to quote.","Vi fant en ugyldig forespørsel for å legge produktet til ordren."
 "The product does not exist.","Produktet finnes ikke."
 "We don't have some of the products you want.","Noen av produktene du ønsker er ikke tilgjengelige."
@@ -2073,12 +2032,7 @@ Checkout,Kasse
 "This quote item does not exist.","Dette produktet finnes ikke."
 "Display number of items in cart","Vis antall varer i handlevognen"
 "Display item quantities","Vise vareantall"
-"The shipping information was unable to be saved. Error: ""%message""","Leveringsinformasjonen kunne ikke lagres. Feil: ""%message"""
-"The shipping information was unable to be saved. Verify the input data and try again.","Leveringsinformasjon kunne ikke lagres. Kontroller inntastet informasjon og prøv igjen."
 "Carrier with such method not found: %1, %2","Transportør med følgende metorder ble ikke funnet: %1,%2"
-"The shipping method is missing. Select the shipping method and try again.","Leveringsmetode mangler. Velg en leveringsmetode å forsøk pånytt."
-"The shipping address is missing. Set the address and try again.","Leveringsadressen mangler. Legg inn adressen og forsøk igjen."
-"The shipping method can't be set for an empty cart. Add an item to cart and try again.","Leveringsmetoden kan ikke velges for en tom handlekurv. Legg til en vare og forsøk igjen."
 " item"," produkt"
 " items"," produkter"
 "Totals calculation is not applicable to empty cart","Totalberegninger er ikke mulige for en tom handlevogn"
@@ -2089,7 +2043,6 @@ Checkout,Kasse
 "Sorry, guest checkout is not available.","Beklager, betaling som gjest er ikke tilgjengelig."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du må bekrefte kontoen. Vennligst sjekk din e-post for bekreftelseslenken, eller <a href=""%1"">klikk her</a> for en ny lenke."
 "Load customer quote error","Last kunde sitat feil"
-"Invalid method: %1","Ugyldig metode: %1"
 Error!,Feil!
 "DB exception","DB unntak"
 "Print receipt","Skriv ut kvittering"
@@ -2107,7 +2060,6 @@ Error!,Feil!
 "Estimate Tax","Beregn merverdiavgift"
 "Estimate Shipping and Tax","Estimer frakt og avgifter"
 "Excl. Tax","Eks. Mva"
-"You added %1 to your <a href=""%2"">shopping cart</a>.","Du la til %1 til din <a href=""%2"">handlekurv</a>."
 "Order #","Ordre #"
 "Proceed to Checkout","Fortsett til kassen"
 "Incl. Tax","Inkl. Mva"
@@ -2128,47 +2080,32 @@ Total:,Totalt:
 "Sign In","Logg inn"
 "Email Address",E-postadresse
 "Forgot Your Password?","Glemt passordet ditt?"
-"* Required Fields","* Obligatoriske felt"
 "My billing and shipping address are the same","Min faktura- og leveringsadresse er den samme"
 Update,Oppdater
 "Save in address book","Lagre i adresseboken"
-"Billing Address",Fakturaadresse
-"Enter your destination to get a shipping estimate.","Angi destinasjon for å beregne et fraktestimat."
 "Estimated Total","Estimert totalpris"
 "You can create an account after checkout.","Du kan opprette en konto etter utsjekk i kassen."
 "You already have an account with us. Sign in or continue as guest.","Du har allerede en konto hos oss. Logg inn eller fortsett som gjest."
 Login,"Logg inn"
-of,av
-"Items in Cart","Varer i handlevognen"
-"Item in Cart","Vare i handlevognen"
-"Recently added item(s)","Vare(r) nylig lagt til"
-"View and Edit Cart","Se og endre handlevogn"
 "See Details","Se detaljer"
 "Options Details","Valg for detaljer"
-"Edit item","Rediger produkt"
 "Cart Subtotal","Handlekurv delsum"
-"No Payment Methods","Ingen betalingsmetoder"
 "No Payment method available.","Ingen tilgjengelig betalingsmetode."
 "You can track your order status by creating an account.","Du kan spore din ordrestatus ved å opprette en konto."
-"Create an Account","Opprett konto"
 "Place Order","Send bestilling"
 "Forgot an Item?","Glemt et produkt?"
 "Edit Your Cart","Rediger din handlekurv"
 "Ship Here","Lever hit"
-"Select Method","Velg metode"
-"Method Title",Metodetittel
 "Ship To:","Levering til:"
 edit,rediger
-"Shipping Address",Leveringsadresse
-"New Address","Ny adresse"
-"Shipping Methods",Leveringsmåte
 "Order Summary",Ordresammendrag
+"View and Edit Cart","Se og endre handlevogn"
+"Field ","Felt "
+" is required."," er påkrevd."
 "Provided Zip/Postal Code seems to be invalid.","Postnummeret ser ut til å være ugyldig."
 " Example: "," Eksempel: "
 "If you believe it is the right one you can ignore this notice.","Hvis du mener det er den korrekte kan du se bort fra dette varselet."
-"Field ","Felt "
-" is required."," er påkrevd."
-"Are you sure you want to remove all items from your shopping cart?","Er du sikker på at du vil slette alle varer fra handlekurv?"
+"New Address","Ny adresse"
 "Are you sure you would like to remove this item from the shopping cart?","Er du sikker på at du ønsker å fjerne denne varen fra handlekurven?"
 "Review & Payments","Gjennomgang & betalinger"
 "Select a new payment method","Velg en ny betalingsmetode"
@@ -2181,12 +2118,8 @@ edit,rediger
 "Quote Lifetime (days)","Levetid for sitat (dager)"
 "After Adding a Product Redirect to Shopping Cart","Etter et produkt er lagt til omdiriger til handlekurv"
 "Number of Items to Display Pager","Antall elementer som skal vises på en gang"
-"Show Cross-sell Items in the Shopping Cart","Vis kryss-salg produkter i handlekurven"
-"Enable Clear Shopping Cart","Aktiver Tøm handlekurv"
 "My Cart Link","Min handlekurv lenke"
 "Display Cart Summary","Vis handlekurv sammendrag"
-"Mini Cart","Mini handlekurv"
-"Display Mini Cart","Vis Mini handlekurv"
 "Number of Items to Display Scrollbar","Antall varer som skal vises i rullevindu"
 "Maximum Number of Items to Display","Maksimalt antall varer å vise"
 "Payment Failed Emails","Betaling Feilet E-poster"
@@ -2198,11 +2131,31 @@ edit,rediger
 "Separate by "","".","Separer med "",""."
 "Send Payment Failed Email Copy Method","Send Betaling Feilet E-post Kopi Metode"
 "Order Total",Ordretotal
+"Shipping Address",Leveringsadresse
 "We'll send your order confirmation here.","Vi sender din ordrebekreftelse her."
 Payment,Betaling
 "Not yet calculated","Foreløbig ikke beregnet"
-"The order was not successful!","Ordren var ikke vellykket!"
 "Thank you for your purchase!","Takk for din bestilling!"
+"Recently added item(s)","Vare(r) nylig lagt til"
+"No Payment Methods","Ingen betalingsmetoder"
+"Shipping Methods",Leveringsmåte
+"Select Method","Velg metode"
+"Method Title",Metodetittel
+"Item in Cart","Vare i handlevognen"
+"Items in Cart","Varer i handlevognen"
+of,av
+"Something went wrong while saving the page. Please refresh the page and try again.","Noe gikk galt under under lagring av side. Forsøk å laste inn siden pånytt og prøv ny lagring."
+"You added %1 to your <a href=""%2"">shopping cart</a>.","Du la til %1 til din <a href=""%2"">handlekurv</a>."
+"Please select at least one product to add to cart","Vær snill å velg minst ett produkt å legge til handlekurven"
+"The quote item isn't found. Verify the item and try again.","Etterspurt vare ble ikke funnet. Verifiser varen og prøv igjen."
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Bestillingen ble ikke plassert. Først, si deg enig i vilkårene, forsøk deretter å gjennomføre ordren igjen."
+"The product wasn't found. Verify the product and try again.","Produktet ble ikke funnet. Verifiser produktet og prøv igjen."
+"The shipping address is missing. Set the address and try again.","Leveringsadressen mangler. Legg inn adressen og forsøk igjen."
+"The shipping information was unable to be saved. Verify the input data and try again.","Leveringsinformasjon kunne ikke lagres. Kontroller inntastet informasjon og prøv igjen."
+"The shipping method can't be set for an empty cart. Add an item to cart and try again.","Leveringsmetoden kan ikke velges for en tom handlekurv. Legg til en vare og forsøk igjen."
+"Billing Address",Fakturaadresse
+"The shipping method is missing. Select the shipping method and try again.","Leveringsmetode mangler. Velg en leveringsmetode å forsøk pånytt."
+"Show Cross-sell Items in the Shopping Cart","Vis kryss-salg produkter i handlekurven"
 "Terms and Conditions","Vilkår og betingelser"
 "Add New Condition","Legg til ny tilstand"
 "Save Condition","Lagre tilstand"
@@ -2227,9 +2180,9 @@ Sales,Salg
 "Something went wrong while saving this condition.","Noe gikk galt under lagringen av denne betingelsen."
 Automatically,Automatisk
 Manually,Manuelt
-"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Ordren ble ikke registrert. Godta vilkårene og prøv på nytt."
 "Terms & Conditions","Vilkår og betingelser"
 "Enable Terms and Conditions","Aktiver Vilkår og betingelser"
+"The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","Ordren ble ikke registrert. Godta vilkårene og prøv på nytt."
 "Preview Quote Lifetime (minutes)","Forhåndsvisning sitat levetid (minutter)"
 "Static Blocks","Statiske blokker"
 "Add New Block","Legg til ny blokk"
@@ -2238,6 +2191,7 @@ Identifier,Identifikator
 "Manage Pages","Administrere sider"
 "Add New Page","Legg til ny side"
 "Delete Page","Slett siden"
+"Save Page","Lagre side"
 Created,Opprettet
 Modified,Endret
 "Media Storage",Lagringsmedier
@@ -2270,7 +2224,6 @@ LocalizedException,LokalisertUnntak
 "Are you sure you want to delete a %1 record?","Er du sikker på at du vil slette en %1 oppføring?"
 View,Visning
 "No files found","Finner ingen filer"
-"Save Page","Lagre side"
 "Content Management",Innholdsbehandling
 "Show Notice if JavaScript is Disabled","Vis varsel hvis JavaScript er deaktivert"
 "Show Notice if Local Storage is Disabled","Vis varsel hvis lokal lagring er deaktivert"
@@ -2334,8 +2287,6 @@ Duplicated,Duplisert
 "Could not save company","Kunne ikke lagre firmaet"
 "You have saved company %companyName.","Du har lagret firma %companyName."
 "You have created company %companyName.","Du har opprettet firma %companyName."
-"You have accepted the invitation to the company","Du har godtatt invitasjonen til selskapet"
-"Error occurred when trying to accept the invitation. Please try again later.","En feil oppstod ved forsøk på å godkjenne invitasjonen. Prøv igjen senere."
 "Cannot create the customer.","Kan ikke opprette kunde."
 "The customer was successfully created.","Kunden ble opprettet."
 "You cannot delete yourself.","Du kan ikke slette deg selv."
@@ -2348,6 +2299,9 @@ Duplicated,Duplisert
 "Pending Approval","Venter på godkjenning"
 Rejected,Avvist
 Blocked,Blokkert
+"Invalid login or password.","Ugyldig pålogging eller passord."
+"This account is locked.","Denne kontoen er låst."
+"Your account is not yet approved. If you have questions, please contact the seller.","Din konto er ikke enda godkjent. Hvis du har spørsmål, vennligst kontakt selgeren."
 "Invalid value of ""%value"" provided for the %fieldName field.","Ugyldig verdi for ""% verdi"" gitt for feltet %fieldName."
 "Cannot delete role with id %1","Kunne ikke slette rolle med id %1"
 "The selected user is inactive. To continue, select another user or activate the current user.","Den valgte brukeren er inaktiv. For å fortsette, velg en annen bruker eller aktiver gjeldende bruker."
@@ -2355,9 +2309,6 @@ Blocked,Blokkert
 "Could not create team","Kunne ikke opprette lag"
 "Could not update team","Kunne ikke oppdatere lag"
 "Cannot delete team with id %1","Kunne ikke slette lag med id %1"
-"Invalid login or password.","Ugyldig pålogging eller passord."
-"This account is locked.","Denne kontoen er låst."
-"Your account is not yet approved. If you have questions, please contact the seller.","Din konto er ikke enda godkjent. Hvis du har spørsmål, vennligst kontakt selgeren."
 "Something went wrong","Noe gikk galt"
 " - Duplicated"," - Duplisert"
 "Exception message",Unntaksmelding
@@ -2374,7 +2325,6 @@ Duplicate,Dupliser
 "Company Name",Firmanavn
 "Customer Type:",Kundetype:
 Company:,Firmanavn:
-"User Role",Brukerrolle
 "Company Information",Firmainformasjon
 "Company Legal Name","Firmaets juridiske navn"
 "Company Email","Firmaets e-post-adresse"
@@ -2388,6 +2338,7 @@ Company:,Firmanavn:
 "Add User","Legg til bruker"
 "Edit Selected","Rediger valgte"
 "Delete Selected","Slett valgte"
+"User Role",Brukerrolle
 "Team Title","Lag Tittel"
 "You don't have a company account yet.","Du har ikke en firmakonto enda."
 "VAT/TAX ID: ","MVA / SKATT ID: "
@@ -2423,6 +2374,7 @@ Proceed,Fortsett
 "This action cannot be undone. Are you sure you want to delete this role?","Denne handlingen kan ikke angres. Er du sikker på at du vil slette denne rollen?"
 "Cannot Delete Role","Kan ikke slette rollen"
 "Cannot Delete Customer","Kan ikke slette kunden"
+"Set Inactive","Sett inaktiv"
 "Company Configuration",Firmakonfigurasjon
 "Email Options - Company Registration","Epost alternativer - Firma registrering"
 Comma-separated,Kommadelt
@@ -2447,7 +2399,6 @@ Comma-separated,Kommadelt
 Comment,Kommentar
 "Company Admin","Selskapets Admin"
 Gender,Kjønn
-"Set Inactive","Sett inaktiv"
 "Customer Type",Kundenavn
 "Are you sure you want to temporarily disable this company account? If you confirm, login for all company members will be blocked.","Er du sikker på at du vil midlertidig deaktivere denne firmakontoen? Hvis du bekrefter, blokkeres innlogging for alle medlemmer i selskapet."
 "Are you sure you want to set this company to active? If you confirm, the company members will be able to operate within their company account.>","Er du sikker på at du vil angi dette selskapet til aktivt? Hvis du bekrefter, vil medlemmene i selskapet kunne operere innenfor deres firmakonto. >"
@@ -2498,6 +2449,7 @@ Purchased,Kjøpt
 "Order # %1","Ordre # %1"
 "Available Credit ","Tilgjengelig Kreditt "
 "Cancel the Order","Fjern bestillingen"
+"This is a required field.","Dette er et obligatorisk felt."
 "Reason For Change","Årsaken til forandring"
 Date,Dato
 Operation,Operasjon
@@ -2646,16 +2598,16 @@ Select,Velg
 "No Image","Ingen bilde"
 "Choose a different Product","Velg et annet produkt"
 "Create Product Configurations","Opprett produktkonfigurasjoner"
-"Buy %1 for %2 each and","Kjøp %1 for %2 pr. stk. og"
-save,spar
-"Disable Product","Deaktiver produkt"
-"Enable Product","Aktiver produkt"
 "New Product Review","Ny produktomtale"
 "Here are the products you're about to create.","Her er produktene du er i ferd med å opprette."
 "You created these products for this configuration.","Du opprettet disse produktene for denne konfigurasjonen."
+"Disable Product","Deaktiver produkt"
+"Enable Product","Aktiver produkt"
 "Please choose image(s).","Velg bilde(r)."
 "Please select attribute(s).","Vennligst velg attributt(er)."
 "Generate Products","Opprett produkter"
+"Buy %1 for %2 each and","Kjøp %1 for %2 pr. stk. og"
+save,spar
 "Configurable Product Image","Konfigurerbart produktbilde"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Takk for at du kontaktet oss med dine kommentarer og spørsmål. Vi vil svare deg snart."
 "An error occurred while processing your form. Please try again later.","En feil oppstod under håndtering av skjemaet. Prøv igjen senere."
@@ -2781,6 +2733,8 @@ Unlock,"Lås opp"
 "This email does not require confirmation.","Denne e-posten krever ingen bekreftelse."
 "Wrong email.","Feil e-post adresse."
 "Your password reset link has expired.","Link for å gjenopprette passord er utgått."
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du må bekrefte kontoen. Sjekk din e-post, eller <a href=""%1"">klikk her</a> for å få tilsendt en ny."
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Det finnes allerede en konto med denne e-postadressen. Hvis du er sikker på at er det e-postadressen, <a href=""%1""> Klikk her</a> for å få passordet og få tilgang til kontoen."
 "Please make sure your passwords match.","Kontroller at passordene er like."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Hvis du er en registrert mva-kunde, vennligst klikk <a href=""%1"">her</a> for å oppgi leveringsadresse for riktig mva-beregning."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Hvis du er en registrert mva-kunde, vennligst klikk <a href=""%1"">her</a> for å oppgi fakturaadresse for riktig mva-beregning."
@@ -2789,6 +2743,8 @@ Unlock,"Lås opp"
 "We're unable to send the password reset email.","Vi fikk ikke sendt deg e-post for tilbakestilling av passord."
 "Please enter your email.","Angi din e-post adresse."
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Hvis det er en konto knyttet til %1 vil du motta en e-post med en link for å tilbakestille passordet."
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Denne kontoen er ikke bekreftet. <a href=""%1""> Klikk her</a> for å få resendt e-postbekreftelsen."
+"An unspecified error occurred. Please contact us for assistance.","Det oppstod en uspesifisert feil. Kontakt oss for hjelp."
 "A login and a password are required.","Et brukernavn og et passord er nødvendig."
 "New Password and Confirm New Password values didn't match.","Nye passordet og bekreftelsespassordet samsvarer ikke."
 "Please enter a new password.","Skriv inn et nytt passord."
@@ -2823,13 +2779,13 @@ Unlock,"Lås opp"
 "Please enter a password with at most %1 characters.","Skriv inn et passord med maks %1 tegn."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum forskjellige klasser av tegn i passord er %1. Klasser av tegn: små bokstaver, store bokstaver, sifre, spesialtegn."
 "This customer already exists in this store.","Denne kunden finnes allerede i denne butikken."
+"Reset password token expired.","Tilbakestill passord token utløpt."
 """%1"" is a required value.","""%1"" er en påkrevd verdi."
 "Per Website","Per nettside"
 "No such entity with %fieldName = %fieldValue, %field2Name = %field2Value","Ingen slik enhet med %fieldName = %fieldValue, %field2Name = %field2Value"
 "Unable to create directory %1.","Kan ikke opprette katalogen %1."
 "Destination folder is not writable or does not exists.","Målmappen er ikke skrivbar eller finnes ikke."
 "Something went wrong while saving the file.","Noe gikk galt mens filen skulle lagres."
-"Reset password token expired.","Tilbakestill passord token utløpt."
 "Attribute object is undefined","Attributtet er udefinert"
 """%1"" invalid type entered.","""%1"" ugyldig type angitt."
 """%1"" contains non-alphabetic or non-numeric characters.","""%1"" inneholder ikke-alfabetiske eller ikke-numeriske tegn."
@@ -2905,13 +2861,13 @@ Newsletters,Nyhetsbrev
 "You have no default billing address in your address book.","Du har ingen standard faktureringsadresse i adresseboken."
 "Change Shipping Address","Endre leveringsaddresse"
 "You have no default shipping address in your address book.","Du har ingen standard leveringsadresse i adresseboken."
+"Additional Address Entries","Alternative adresser"
 "Street Address %1","Gateadresse %1"
 "It's a default billing address.","Aktiv som standard faktureringsadresse."
 "Use as my default billing address","Bruk som standard faktureringsadresse"
 "It's a default shipping address.","Aktiv som standard leveringsadresse."
 "Use as my default shipping address","Bruk som standard leveringsadresse"
 "Go back",Tilbake
-"Additional Address Entries","Alternative adresser"
 "Please enter your email below and we will send you the confirmation link.","Inn Skriv din e-post nedenfor og vi vil sende deg bekreftelseslenken."
 "Send confirmation link","Sende bekreftelseslenke"
 "Back to Sign In","Tilbake til å pålogging"
@@ -2934,9 +2890,6 @@ Newsletters,Nyhetsbrev
 "Confirm Password","Bekreft passord"
 "Set a New Password","Angi et nytt passord"
 "You have signed out and will go to our homepage in 5 seconds.","Du har logget ut og blir sendt til hovedsiden om 5 sekunder."
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Denne kontoen er ikke bekreftet. <a href=""%1""> Klikk her</a> for å få resendt e-postbekreftelsen."
-"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Du må bekrefte kontoen. Sjekk din e-post, eller <a href=""%1"">klikk her</a> for å få tilsendt en ny."
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Det finnes allerede en konto med denne e-postadressen. Hvis du er sikker på at er det e-postadressen, <a href=""%1""> Klikk her</a> for å få passordet og få tilgang til kontoen."
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Opprettelse av konto har mange fordeler: Raskere handel, registrer flere adresser, sjekk ordrestatus m.m."
 Fax,Faks
 "Welcome to %store_name","Velkommen til %store_name"
@@ -3430,10 +3383,10 @@ Creative,Kreativ
 "Export Settings",Eksportinnstillingene
 "Entity Type",Enhetstype
 "Export File Format",Eksport-filformat
-"Only the first 100 errors are shown. ","Bare de første 100 feilene vises. "
-"Download full report","Last ned hele rapporten"
 "Show more","Vis mer"
 "Additional data",Tilleggsdata
+"Only the first 100 errors are shown. ","Bare de første 100 feilene vises. "
+"Download full report","Last ned hele rapporten"
 "in row(s):","i rad(er):"
 Add/Update,"Legg til/Oppdater"
 Replace,Erstatte
@@ -3581,9 +3534,9 @@ Wishlist,Ønskeliste
 "Create Billing Address","Opprette faktureringsadresse"
 "Create Shipping Address","Opprette leveringsadresse"
 "Data saving problem","Data lagring problem"
-"Maximum qty allowed for Shipping to multiple addresses is %1","Maksimalt antall tillatt for levering til flere adresser er %1"
 "We cannot open the overview page.","Vi kan ikke åpne oversiktssiden."
 "Please agree to all Terms and Conditions before placing the order.","Vennligst godta alle vilkår og betingelser før bestilling."
+"Maximum qty allowed for Shipping to multiple addresses is %1","Maksimalt antall tillatt for levering til flere adresser er %1"
 "Select Addresses","Velg adresser"
 "Shipping Information",Leveringsinformasjon
 "Billing Information",Fakturainformasjon
@@ -3602,21 +3555,17 @@ Wishlist,Ønskeliste
 "Shipping To","Frakt til"
 "Order Review",Ordregjennomgang
 "Grand Total:",Totalsum:
-"Ship to:","Leveres til:"
-Error:,Feil:
 "Allow Shipping to Multiple Addresses","Tillate levering til flere adresser"
 "Maximum Qty Allowed for Shipping to Multiple Addresses","Maksimalt antall tillatt for levering til flere adresser"
 "Review Order","Gå igjennom ordren"
 "Select Shipping Method","Velg leveringsmåte"
 "Thank you for your purchase!","Takk for bestillingen!"
+"Ship to:","Leveres til:"
+Error:,Feil:
 "MySQL Message Queue Cleanup","MySQL meldingkø-opprydding"
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Alle tider er i minutter. Bruk ""0"" hvis du vil hoppe over automatisk klaring."
 "Failed Messages Lifetime","Levetid for mislykkede meldinger"
 "New Messages Lifetime","Levetid for nye meldinger"
-Quotes,Tilbud
-"Created Date","Opprettet dato"
-"Last Updated","Sist oppdatert"
-"Sales Rep",Salgsrapport
 "Catalog Total Price (Excl. Tax)","Katalog totalpris (ekskl. mva)"
 "Catalog Total Price (Incl. Tax)","Katalog totalpris (ekskl. mva)"
 "Catalog Total Price","Katalogen totaltpris"
@@ -3659,6 +3608,7 @@ deleted,slettet
 "Quote Grand Total (Incl. Tax)","Tilbud Totalsum (inkl. mva)"
 "Grand Total to Be Charged","Totalsum som skal belastes"
 "Requested quote was not found","Finner ikke forespurt tilbud"
+Quotes,Tilbud
 " - deleted"," - slettet"
 "Product with ID #%1 is deleted","Produkt med ID #%1 er slettet"
 "There was an error saving history log.","Det oppstod en feil under oppdatering av loggen."
@@ -3670,6 +3620,7 @@ deleted,slettet
 "Cannot create a B2B quote.","Kan ikke skape et B2B-tilbud."
 "Changes to the negotiated quote were not saved. Please try again.","Endringer forhandlet i tilbudet ble ikke lagret. Prøv på nytt."
 "Shipping method cannot be set for a virtual quote.","Forsendelsesmåte kan ikke angis for et virtuelt tilbud."
+"Product with SKU %1 not found","Produkt med SKU %1 ikke funnet"
 "Catalog Price: ","Katalogpris: "
 "Discount amount: ","Rabattbeløp: "
 discount,rabatt
@@ -3677,7 +3628,6 @@ discount,rabatt
 "Products %1","Produkter %1"
 Submitted,Innsendt
 Declined,Avslått
-"Product with SKU %1 not found","Produkt med SKU %1 ikke funnet"
 "Validation error message","Validerings feilmelding"
 "Message 1","Beskjed 1"
 "Message 2","Beskjed 2"
@@ -3688,6 +3638,7 @@ Expires,Utløper
 Seller,Selger
 "Catalog Price",Katalogpris
 "Attach file","Legg til filer"
+"Sales Rep",Salgsrapport
 Cost,Kostnad
 "Click to change shipping method","Klikk for å endre shipping metode"
 "Get shipping methods and rates","Få leveringsmetoder og satser"
@@ -3727,7 +3678,9 @@ Expires:,Utløper:
 "Attached files","Legg til filer"
 "File formats for upload","Fil format for å laste opp"
 "Maximum file size","Maksimal filstørrelse"
+"Created Date","Opprettet dato"
 "Submitted By","Innsendt av"
+"Last Updated","Sist oppdatert"
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","Ingen New Relic program-ID'er er konfigurert, kan ikke fortsette med Cron hendelse rapportering"
 "New Relic Reporting Section","New Relic rapportseksjon"
 "New Relic Reporting","New Relic-rapportering"
@@ -3851,7 +3804,6 @@ Help,Hjelp
 "You will be redirected to the PayPal website when you place an order.","Du blir videresendt til PayPal når du gjennomfører bestillingen."
 "Invalid block type","Ugyldig blokktype"
 "Billing Agreement # %1","Faktureringsavtale # %1"
-"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kan ikke behandle bestillinger med null saldo. For å fullføre kjøpet, vennligst gå gjennom standard betalingsprosess."
 "A match of the Shipping Address City, State, and Postal Code failed.","Matching av leveringsdressens sted, fylke og postnummer mislyktes."
 "We prefer PayPal (150 X 60)","Vi foretrekker PayPal (150 X 60)"
 "Now accepting PayPal (150 X 60)","Vi godtar nå PayPal (150 X 60)"
@@ -3861,6 +3813,7 @@ Help,Hjelp
 Shortcut,Snarvei
 Authorization,Autorisasjon
 "Ask Customer","Spør Kunder"
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal kan ikke behandle bestillinger med null saldo. For å fullføre kjøpet, vennligst gå gjennom standard betalingsprosess."
 "Last Transaction ID","Siste transaksjons ID"
 "The payment is pending because it was made to an email address that is not yet registered or confirmed.","Betaling er på vent fordi den ble gjort til en e-postadresse som ennå ikke er registrert eller bekreftet."
 Complaint,Klage
@@ -3890,12 +3843,12 @@ Manage,Administrere
 "API Password","API passord"
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal anbefaler at du setter opp en ekstra bruker på kontoen din på manager.paypal.com, istedenfor å oppgi ditt admin brukernavn og passord her. Dette vil forhøye sikkerhet og hindre stopp i tjenesten hvis du senere forandrer passordet ditt. Hvis du ikke ønsker å opprette ekstra bruker, da kan du legge inn Selger pålogging her."
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Hvis du ikke har flere brukere på kontoen, vennligst skriv ny leverandør/selger pålogging her."
+"Not you?","Ikke du?"
 "Your shopping cart has been updated with new prices.","Handlekurven har blitt oppdatert med nye priser."
+"Welcome, %1!","Velkommen, %1!"
 "We cannot load the configuration from file %1.","Vi kan ikke laste konfigurasjonen fra filen %1."
 "Method ""%1"" is not defined in ""%2""","Metode ""%1"" er ikke definert i ""%2"""
 "Remember Me","Husk meg"
-"Welcome, %1!","Velkommen, %1!"
-"Not you?","Ikke du?"
 """Remember Me"" Default Value","""Husk meg"" standardverdi"
 "Persist Wish List","Vedvarende ønskeliste"
 "Persist Recently Ordered Items","Vedvare nylig bestilte varer"
@@ -4000,6 +3953,7 @@ Reviews,Produktomtaler
 "Cannot specify product.","Kan ikke spesifisere produkt."
 Exception,Unntak
 "Could not save","Kunne ikke lagre"
+"Edit item","Rediger produkt"
 "With Selected","Med valgt"
 "Copy Selected","Kopier Valgte"
 Copy,Kopi
@@ -4273,7 +4227,6 @@ Transactions,Transaksjoner
 Value,Verdi
 "Back to My Orders","Tilbake til mine ordre"
 "View Another Order","Vise en annen ordre"
-"You have placed no orders.","Du har ingen ordrer."
 "Subscribe to Order Status","Abonner på bestillingsstatus"
 Unassign,"Oppheve tilordning"
 "You sent the message.","You sende meldingen."
@@ -4333,6 +4286,7 @@ Complete,Ferdig
 "Purchased From","Kjøpt fra"
 "Gift Message for this Order","Gavemelding for denne bestillingen"
 "Billing Last Name","Faktura etternavn"
+"You have placed no orders.","Du har ingen ordrer."
 "Print Order","Skriv ut ordre"
 "About Your Order","Din bestilling"
 "Recent Orders","Siste bestillinger"
@@ -4386,8 +4340,6 @@ Complete,Ferdig
 "Manage Coupon Codes","Administrere kupongkoder"
 "Coupon Qty","Kupong Ant"
 "Rule is not defined","Regel er ikke definert"
-"Fixed amount discount","Fast rabatt"
-"Fixed amount discount for whole cart","Fast rabatt for hele handlekurven"
 "Shipping Country",Leveringsland
 "Cart Attribute",Handlevognattributt
 "Quantity in cart","Antall i handlevognen"
@@ -4395,6 +4347,8 @@ Complete,Ferdig
 "Row total in cart","Rader totalt i handlevognen"
 FOUND,FUNNET
 "total quantity","totalt antall"
+"Fixed amount discount","Fast rabatt"
+"Fixed amount discount for whole cart","Fast rabatt for hele handlekurven"
 Promotion,Reklame
 "Use Auto Generation","Bruk autogenerering"
 "Uses per Coupon","Bruk per kupong"
@@ -4458,8 +4412,8 @@ Successful,Vellykket
 "You deleted the search.","Du slettet søket."
 "This search no longer exists.","Dette søket finnes ikke lenger."
 "Edit Search","Rediger søk"
-"Are you sure you want to delete synonym group with id: %1?","Er du sikker på at du ønsker å slette synonyme grupper med id %1?"
 "    All Store Views","    Alle butikkvisninger"
+"Are you sure you want to delete synonym group with id: %1?","Er du sikker på at du ønsker å slette synonyme grupper med id %1?"
 "Search entire store here...","Søk i hele butikken her..."
 "There are no search terms available.","Det er ingen søkeord."
 "Search Engine",Søkemotor
@@ -4530,12 +4484,10 @@ Assigned,Tildelt
 "the shipment email is not sent","forsendelsen epost ikke sendt"
 "Shipment #%1 | %3 (%2)","Forsendelsen #%1 | %3 (%2)"
 "Create Shipping Label...","Opprett fraktetikett..."
-"Delivered on:",Levert:
 "About Your Shipment","Om din forsendelse"
 "Cannot add tracking number.","Kan ikke legge til sporingsnummer."
 "You created the shipping label.","Du har lagd fraktetikett."
 "An error occurred while creating shipping label.","Det oppstod en feil under oppretting av fraktetikett."
-"You sent the shipment.","Du sendte forsendelsen."
 "Cannot send shipment information.","Kan ikke sende forsendelsesinformasjon."
 "There are no shipping labels related to selected orders.","Det er ingen fraktetikett relatert til valgte ordre."
 "New Shipment","Ny forsendelse"
@@ -4584,6 +4536,7 @@ Carrier:,Transportør:
 " for more information or "," for mer informasjon eller "
 "email us at ","kontakt oss på "
 Track:,Sporing:
+"Delivered on:",Levert:
 "There is no tracking available for this shipment.","Det finnes ingen sporing for denne forsendelsen."
 "There is no tracking available.","Sporing er ikke tilgjengelig."
 "Track history","Sporings forløp"
@@ -4597,6 +4550,7 @@ Origin,Opprinnelse
 "Apply custom Shipping Policy","Bruke egendefinert leveringsvilkår"
 "Shipping Policy",Fraktvilkår
 "Track your order","Spor din bestilling"
+"You sent the shipment.","Du sendte forsendelsen."
 "This order already has associated case entity","Denne ordren har allerede tilknyttede sak enhet"
 "The case entity should not be empty.","Tilfelle enheten skal ikke være tomt."
 "Cannot update Case entity.","Kan ikke oppdatere sak enhet."
@@ -4656,11 +4610,11 @@ Calendar,Kalender
 "Store with the same code","Butikk med den samme koden"
 "Website with the same code","Nettsider med den samme koden"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Nettstedkoden kan bare inneholde bokstaver (a-z), tall (0-9) eller understreking (_), det første tegnet må være en bokstav."
+"Name is required","Navn er påkrevd"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Butikk-koden kan bare inneholde bokstaver (a-z), tall (0-9) eller understreking (_), det første tegnet må være en bokstav."
 "Store is inactive","Butikken er inaktiv"
 "Invalid store parameter.","Ugyldig lagerparameter."
 "Default store is inactive","Standardbutikken er inaktiv"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Butikk-koden kan bare inneholde bokstaver (a-z), tall (0-9) eller understreking (_), det første tegnet må være en bokstav."
-"Name is required","Navn er påkrevd"
 "no such entity exception","ingen slike enhet unntak"
 "Your Language:","Ditt språk:"
 "Your Language","Ditt språk"
@@ -4844,7 +4798,6 @@ Themes,Temaer
 "Insert File","Sett inn fil"
 welcome,velkommen
 "Design Configuration","Design Konfigurasjon"
-"We cannot find a theme with id ""%1"".","Vi kan ikke finne temaet med id ""%1""."
 "You deleted the theme.","Du slettet temaet."
 "We cannot delete the theme.","Vi kan ikke fjerne dette temaet."
 "File not found: ""%1"".","Filen ikke funnet: ""%1""."
@@ -4852,6 +4805,7 @@ welcome,velkommen
 "We cannot find the theme.","Vi kan ikke finne temaet."
 "This theme is not editable.","Dette temaet er ikke redigerbart."
 "You saved the theme.","Du lagret temaet."
+"We cannot find a theme with id ""%1"".","Vi kan ikke finne temaet med id ""%1""."
 "Invalid type","Ugyldig type"
 "localized exception","lokaliserte unntak"
 "Test Label",Testetikett
@@ -4862,6 +4816,7 @@ testMessage,testMelding
 "Report All Bugs","Rapporter alle feil"
 "JavaScript seems to be disabled in your browser.","JavaScript kan være deaktivert i din nettleseren."
 "%1 Item(s)","%1 Produkt(er)"
+Page,Side
 "We don't recognize this file extension.","Vi gjenkjenner ikke denne filtypen."
 "1 column","1 kolonne"
 "Default welcome msg!","Standard velkommen msg!"
@@ -4908,6 +4863,7 @@ Translations,Oversettelser
 "New %1","Nye %1"
 "Unsupported bookmark action.","Ustøttet bokmerkehandling."
 Filters,Filtre
+Selected,Valgt
 "Select All on This Page","Velg alle på denne siden"
 "Deselect All on This Page","Opphevmerking av alle på denne siden"
 On,På
@@ -4967,8 +4923,6 @@ Keyword,Nøkkelord
 "Please enter a valid zip code.","Vennligst skriv inn en gyldig zip-kode."
 "Please select State/Province.","Vennligst angi Stat/Province."
 "Log JS Errors to Session Storage","Logg JS-feil til øktlagring"
-"If enabled, can be used by functional tests for extended reporting","Hvis aktivert, kan dette brukes av funksjonelle tester for utvidet rapportering"
-"Use this key to retrieve collected js errors","Bruk denne nøkkelen for å hente samlede js-feil"
 settings/label,instillinger/etikket
 settings/confirm/title,instillinger/bekreft/tittel
 "
@@ -4986,6 +4940,8 @@ formElements/*[name(.)=../../@formElement]/settings/title                    "
 settings/visible,instillinger/synlig
 settings/showLabel,instillinger/visEtikket
 settings/size,instillinger/størrelse
+"If enabled, can be used by functional tests for extended reporting","Hvis aktivert, kan dette brukes av funksjonelle tester for utvidet rapportering"
+"Use this key to retrieve collected js errors","Bruk denne nøkkelen for å hente samlede js-feil"
 "UPS Ground","UPS veifrakt"
 "UPS Standard",UPS-standard
 "Canada Standard","Kanada Standard"
@@ -5088,13 +5044,13 @@ username,brukernavn
 "Forgot your password?","Har du glemt passordet?"
 "Reset a Password","Tilbakestille et passord"
 "Roles Resources","Ressurser for Roller"
-"Hello,","Hei,"
-"If you have not authorized this action, please contact us immediately at %store_email","Hvis du ikke har autorisert denne handlingen, vennligst kontakt oss umiddelbart på %store_email"
-"Thanks,","Takk,"
 "Password Reset Confirmation for %name","Bekreftelse på tilbakestilling av passord for %name"
 "If you requested this change, reset your password here:","Hvis du forespurte denne endringen, tilbakestill passordet her:"
 "New %changes for %user_name","Nye %changes for %user_name"
+"Hello,","Hei,"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Vi har mottatt en forespørsel om å endre følgende informasjon knyttet til kontoen din hos %store_name: %changes."
+"If you have not authorized this action, please contact us immediately at %store_email","Hvis du ikke har autorisert denne handlingen, vennligst kontakt oss umiddelbart på %store_email"
+"Thanks,","Takk,"
 "User Roles",Brukerroller
 "User Notification Template","Bruk angitt mal"
 "We will disable this feature if the value is empty.","Vi deaktiverer denne funksjonen hvis verdien er tom."
@@ -5264,24 +5220,23 @@ Choose...,Velg...
 "All Pages","Alle Sider"
 "Specified Page","Spesifisert Side"
 "Add Layout Update","Legg til Oppsett Oppdatering"
+"Remove Layout Update","Fjern Oppsett Oppdatering"
 "Widget Options","Widget Alternativer"
 "Please specify a Widget Type.","Vennligst spesifiser en Widget Type."
 "Please specify a correct widget.","Vennligst spesifiser en korrekt widget."
 "New Widget","Legg til Widget"
 Widgets,Widgeter
 description,beskrivelse
-"Remove Layout Update","Fjern Oppsett Oppdatering"
 "Specific %1","Spesifisert %1"
 "Wish List Sharing","Del ønskelisten"
 "My Wish List","Min ønskeliste"
 "We can't add the item to the cart right now.","Vi kan ikke legge til produkt i handlekurv nå."
 "%1 has been moved to your wish list.","%1 har blitt flyttet til ønskelisten din."
-"You must login or register to add items to your wishlist.","Du må logge deg inn eller registre deg for å kunne legge til varer i ønskelisten din."
 "Message length must not exceed %1 symbols","Lengde på beskjed kan ikke overskride %1 symbols"
 "Your wish list has been shared.","Ønskelisten er delt."
-"%1 has been updated in your Wish List.","%1 er oppdatert i ønskelisten."
 "Can't save description %1","Kan ikke lagre beskrivelse %1"
 "Can't update wish list","Kan ikke oppdatere ønskeliste"
+"%1 has been updated in your Wish List.","%1 er oppdatert i ønskelisten."
 "We can't update your Wish List right now.","Vi kan ikke oppdatere ønskelisten akkurat nå."
 "Display number of items in wish list","Vis antall varer i ønskelisten"
 "Product is not salable.","Produktet er ikke til salgs."
@@ -5313,13 +5268,14 @@ error-message,feilmelding
 "Wish List Section","Avdeling for ønskeliste"
 "Share Options","Alternativer for deling"
 "Max Emails Allowed to be Sent","Maks antall e-post tillatt å sende"
-"10 by default. Max - 10000","10 som standard. Maks - 10000"
 "Email Text Length Limit","Grense for e-post tekst lengde"
 "My Wish List Link","Min ønskeliste link"
 "Display Wish List Summary","Vis ønskeliste sammendrag"
 "No Items Found","Ingen varer funnet"
 "User Description","Bruker Beskrivelse"
 "Product Details and Comment","Produktdetaljer og kommentar"
+"10 by default. Max - 10000","10 som standard. Maks - 10000"
+"You must login or register to add items to your wishlist.","Du må logge deg inn eller registre deg for å kunne legge til varer i ønskelisten din."
 "Credit card type",Kredittkorttype
 "CVV result","CVV resultat"
 "Postcode AVS check","Postnummer AVS sjekk"
@@ -5359,9 +5315,7 @@ Warning,Advarsel
 "Method %s does not exist on jQuery.decorate","Metoden %s finnes ikke på jQuery.decorate"
 "Please wait...","Vennligst vent..."
 Translate,Oversett
-"No marginal white space please","Vennligst ingen mellomrom"
 "Please remove invalid characters: {0}.","Fjern ugyldige tegn: {0}."
-"First character must be letter.","Første tegn må være en bokstav."
 "Please select one of the options above.","Vennligst velg ett av alternativene ovenfor."
 "Please select a file.","Vennligst velg en fil."
 "Please select one of the options.","Vennligst velg ett av alternativene."
@@ -5374,8 +5328,6 @@ Translate,Oversett
 "Please enter valid SKU key.","Vennligst angi en gyldig SKU nøkkel."
 "Please enter a valid number.","Vennligst skriv inn et gyldig tall."
 "This is required field","Dette er et obligatorisk felt"
-"You can buy this product only in quantities of %1 at a time.","Du kan kjøpe dette produktet kun i mengder %1 om gangen."
-"The password can't be the same as the email address. Create a new password and try again.","Passordet kan ikke være det samme som e-postadressen. Opprett et nytt passord, og prøv på nytt."
 "Please fix this field.","Vennligst fyll inn dette feltet."
 "Please enter a valid URL.","Vennligst skriv inn en gyldig URL."
 "Please enter a valid date (ISO).","Vennligst angi en gyldig dato(ISO)."
@@ -5393,3 +5345,7 @@ Translate,Oversett
 "Please enter a valid year (1900-%1).","Angi et gyldig år (1900-%1)."
 "Please enter a valid day (1-%1).","Angi en gyldig dag (1-%1)."
 "Please enter a date from the past.","Angi en dato fra fortiden."
+"You can buy this product only in quantities of %1 at a time.","Du kan kjøpe dette produktet kun i mengder %1 om gangen."
+"No marginal white space please","Vennligst ingen mellomrom"
+"First character must be letter.","Første tegn må være en bokstav."
+"The password can't be the same as the email address. Create a new password and try again.","Passordet kan ikke være det samme som e-postadressen. Opprett et nytt passord, og prøv på nytt."
